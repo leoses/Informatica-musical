@@ -1,35 +1,73 @@
-import pyaudio
-from scipy.io import wavfile # para manipulación de wavs
-import numpy as np # arrays
+# reproductor con Chunks
 
-# Conversion del tipo de datos NumPy a numero de bytes por muestra
-def getWidthData(data):
-    if data.dtype.name == 'int16': 
-        return 2
-    elif data.dtype.name in ['int32','float32']: 
-        return 4
-    elif data.dtype.name == 'uint8': 
-        return 1
-    else: 
-        raise Exception('Not supported')
+import numpy as np         # arrays    
+import sounddevice as sd   # modulo de conexión con portAudio
+import soundfile as sf     # para lectura/escritura de wavs
+import kbhit               # para lectura de teclas no bloqueante
 
-SRATE, data = wavfile.read('piano.wav') # Obtenemos SRATE y muestras (en data)
-# información de wav (opcional)
-print("SRATE: {} Format: {} Channels: {} Len: {}".
-format(SRATE, data.dtype, len(data.shape), data.shape[0]))
-p = pyaudio.PyAudio() # arrancamos pyAudio
+# corregido
+last = 0 # ultimo frame generado
+CHUNK = 1024
+SRATE = 44100
+FREC = 10
 
-# Abrimos un stream de PyAudio para enviar ahí los datos
-stream = p.open(format=p.get_format_from_width(getWidthData(data)),
-    channels=len(data.shape), # num canales (shape de data)
-    rate=SRATE, # frecuencia de muestreo
-    frames_per_buffer=1024, # num frames por buffer (elegir)
-    output=True) # es stream de salida ()
+def oscChuck(frec,vol):
+    global last # var global
+    data = vol*np.sin(2*np.pi*(np.arange(CHUNK)+last)*frec/SRATE, dtype="float32")
+    last += CHUNK # actualizamos ultimo generado
+    return data
 
-# escribimos en el stream -> suena!
-stream.write(data.astype(data.dtype).tobytes())
 
-# liberamos recursos
-stream.stop_stream()
-stream.close()
-p.terminate()
+# leemos wav en array numpy (data)
+# por defecto lee float64, pero podemos hacer directamente la conversion a float32
+data  = oscChuck(FREC, 10)#, SRATE = sf.read('piano.wav',dtype="float32")
+
+
+# informacion de wav
+print("\n\nInfo del wav ",SRATE)
+print("  Sample rate ",SRATE)
+print("  Sample format: ",data.dtype)
+print("  Num channels: ",len(data.shape))
+print("  Len: ",data.shape[0])
+
+
+# abrimos stream de salida
+stream = sd.OutputStream(
+    samplerate = SRATE,            # frec muestreo 
+    blocksize  = CHUNK,            # tamaño del bloque (muy recomendable unificarlo en todo el programa)
+    channels   = len(data.shape))  # num de canales
+
+# arrancamos stream
+stream.start()
+
+# En data tenemos el wav completo, ahora procesamos por bloques (chunks)
+# bloque = np.arange(CHUNK,dtype=data.dtype)
+numBloque = 0
+kb = kbhit.KBHit()
+c= ' '
+
+vol = 10.0
+nSamples = CHUNK 
+freq = FREC
+print('\n\nProcessing chunks: ',end='')
+
+# termina con 'q' o cuando el último bloque ha quedado incompleto (menos de CHUNK samples)
+while c!= 'q': 
+    samples = oscChuck(freq,vol)
+    stream.write(samples)
+
+    # modificación de volumen 
+    if kb.kbhit():
+        c = kb.getch()
+        if (c=='v'): vol= max(0,vol-0.05)
+        elif (c=='V'): vol= min(1,vol+0.05)
+        elif(c =="F"): freq = max(0.5, freq + 1)
+        elif(c == "f"):  freq = max(0.5, freq - 1)
+        print("Vol: ",vol)
+
+    numBloque += 1
+    print('.',end='')
+
+
+print('end')
+stream.stop()
