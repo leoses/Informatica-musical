@@ -41,7 +41,6 @@ stream = sd.OutputStream(
 stream.start()
 
 # En data tenemos el wav completo, ahora procesamos por bloques (chunks)
-# bloque = np.arange(CHUNK,dtype=data.dtype)
 numBloque = 0
 kb = kbhit.KBHit()
 c= ' '

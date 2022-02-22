@@ -1,12 +1,10 @@
-# reproductor con Chunks
-
 import numpy as np         # arrays    
 import sounddevice as sd   # modulo de conexión con portAudio
 import soundfile as sf     # para lectura/escritura de wavs
-import kbhit               # para lectura de teclas no bloqueante
 
 SRATE = 44100
 CHUNK = 1024
+vol = 10.0
 
 # returns a sinusoidal signal with frec, dur, vol
 def osc(frec,dur,vol):
@@ -34,16 +32,8 @@ stream = sd.OutputStream(
 # arrancamos stream
 stream.start()
 
-# En data tenemos el wav completo, ahora procesamos por bloques (chunks)
-# bloque = np.arange(CHUNK,dtype=data.dtype)
-numBloque = 0
-kb = kbhit.KBHit()
-c= ' '
-
-vol = 10.0
 print('\n\nProcessing chunks: ',end='')
 
-# termina con 'q' o cuando el último bloque ha quedado incompleto (menos de CHUNK samples)
 for note in song:
     print(note)
     hz = frequencies[note[0].upper()]
