@@ -4,14 +4,12 @@ import soundfile as sf     # para lectura/escritura de wavs
 
 SRATE = 44100
 CHUNK = 1024
-vol = 10.0
+vol = 1.0
 
-# returns a sinusoidal signal with frec, dur, vol
 def osc(frec,dur,vol):
     print("Duracion: " + str(dur))
-    # number of samples requiered according to SRATE
     nSamples = int(SRATE*float(dur))
-    return vol * np.sin(2*np.pi*np.arange(nSamples)*frec/SRATE, dtype="float32")
+    return vol * np.sin(2*np.pi*np.arange(nSamples)*frec/SRATE)
 
 
 song = [('G',0.5),('G',0.5),('A',1.0),('G',1.0),('c',1.0),('B',2.0),
@@ -32,8 +30,6 @@ stream = sd.OutputStream(
 # arrancamos stream
 stream.start()
 
-print('\n\nProcessing chunks: ',end='')
-
 for note in song:
     print(note)
     hz = frequencies[note[0].upper()]
@@ -41,7 +37,7 @@ for note in song:
         hz = hz*2
 
     samples = osc(hz,note[1],vol)
-    stream.write(samples)
+    stream.write(np.float32(samples))
 
 
 print('end')

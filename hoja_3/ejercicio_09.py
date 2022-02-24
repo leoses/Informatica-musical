@@ -24,12 +24,12 @@ class Delay:
         nSamples = int(SRATE*float(self.delay))
         #añadimos al principio del fragmento una zona en silencio de nSamples
         #para generar asi el delay
-        delayedSound = np.append( np.sin((np.arange(nSamples))*0/SRATE, dtype="float32"),self.sound)
+        delayedSound = np.append(np.float32(np.zeros(nSamples)),self.sound)
         #print("Longitud de la muestra despues de aplicar el retardo: " + str(len(delayedSound)))
         return delayedSound
 
 # aplicamos retardo de medio segundo
-retardo = Delay(data, 0.5)
+retardo = Delay(data, 4)
 data = retardo.applyDelay()
 
 # informacion de wav
