@@ -1,14 +1,12 @@
 import numpy as np         # arrays    
 import sounddevice as sd   # modulo de conexión con portAudio
 import soundfile as sf     # para lectura/escritura de wavs
-import kbhit 
 
 data, SRATE = sf.read('piano.wav',dtype="float32")
-# corregido
-last = 0 # ultimo frame generado
-CHUNK = 4096
-VOL = 1.0
 
+last = 0 # ultimo frame generado
+CHUNK = 1024
+VOL = 1.0
 
 def oscChuck(frec,vol):
     global last # var global
@@ -30,6 +28,10 @@ class Delay:
         #print("Longitud de la muestra despues de aplicar el retardo: " + str(len(delayedSound)))
         return delayedSound
 
+# aplicamos retardo de medio segundo
+retardo = Delay(data, 0.5)
+data = retardo.applyDelay()
+
 # informacion de wav
 print("\n\nInfo del wav ",SRATE)
 print("  Sample rate ",SRATE)
@@ -47,11 +49,9 @@ stream = sd.OutputStream(
 stream.start()
 nSamples = CHUNK 
 numBloque = 0
-c= ' '
-kb = kbhit.KBHit()
 
-# termina con 'q' o cuando el último bloque ha quedado incompleto (menos de CHUNK samples)
-while c!= 'q' and nSamples == CHUNK: 
+# termina cuando el último bloque ha quedado incompleto (menos de CHUNK samples)
+while nSamples == CHUNK: 
     # numero de samples a procesar: CHUNK si quedan sufucientes y si no, los que queden
     nSamples = min(CHUNK,data.shape[0] - (numBloque+1)*CHUNK)
 
@@ -62,18 +62,8 @@ while c!= 'q' and nSamples == CHUNK:
     # lo pasamos al stream
     stream.write(bloque) # escribimos al stream
 
-
-    # modificación de volumen 
-    if kb.kbhit():
-        c = kb.getch()
-        if (c=='v'): VOL= max(0,VOL-0.05)
-        elif (c=='V'): VOL= min(1,VOL+0.05)
-        elif(c =="S"):
-            print("Retardo añadido")
-            retardo = Delay(data, 1.0)
-            data = retardo.applyDelay()
-
-
+    #Pasamos a procesar el siguiente bloque
+    numBloque +=1
     print('.',end='')
 
 
