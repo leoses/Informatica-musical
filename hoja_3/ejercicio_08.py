@@ -6,16 +6,6 @@ import kbhit               # para lectura de teclas no bloqueante
 SRATE = 44100
 CHUNK = 1024
 
-# returns a sinusoidal signal with frec, dur, vol
-
-
-def osc(frec, dur, vol):
-    print("Duracion: " + str(dur))
-    # number of samples requiered according to SRATE
-    nSamples = int(SRATE*float(dur))
-    return vol * np.sin(2*np.pi*np.arange(nSamples)*frec/SRATE, dtype="float32")
-
-
 data, SRATE = sf.read('piano.wav')
 
 
@@ -39,15 +29,16 @@ kb = kbhit.KBHit()
 c = ' '
 
 vol = 10.0
-print('\n\nProcessing chunks: ', end='')
-
 vel = SRATE
+octava = 1
 while c != 'q':
 
     # modificación de volumen
     if kb.kbhit():
+        print("Tecla pulsada dios mio de mi vida")
         c = kb.getch()
         if (c == 'z'):
+            print("z")
             vel = frequencies['C']
         elif (c == 'x'):
             vel = frequencies['D']
@@ -61,8 +52,10 @@ while c != 'q':
             vel = frequencies['A']
         elif (c == 'm'):
             vel = frequencies['B']
+        else: continue
+        
+        sd.play(np.float32(data), SRATE*vel, blocking=True)
 
-        sd.write(data, SRATE*vel)
 
 
 print('end')
