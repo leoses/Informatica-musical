@@ -8,19 +8,7 @@ CHUNK = 1024
 
 data, SRATE = sf.read('piano.wav')
 
-
-frequencies = {'C': 1.0, 'D': 1.12, 'E': 1.19,
-               'F': 1.33, 'G': 1.5, 'A': 1.59, 'B': 1.78}
-
-# abrimos stream de salida
-stream = sd.OutputStream(
-    samplerate=SRATE,            # frec muestreo
-    # tamaño del bloque (muy recomendable unificarlo en todo el programa)
-    blocksize=CHUNK,
-    channels=1)  # num de canales
-
-# arrancamos stream
-stream.start()
+frequencies = {'C': 1.0, 'D': 1.12, 'E': 1.25,'F': 1.33, 'G': 1.5, 'A': 1.68, 'B': 1.88}
 
 # En data tenemos el wav completo, ahora procesamos por bloques (chunks)
 # bloque = np.arange(CHUNK,dtype=data.dtype)
@@ -33,12 +21,9 @@ vel = SRATE
 octava = 1
 while c != 'q':
 
-    # modificación de volumen
     if kb.kbhit():
-        print("Tecla pulsada dios mio de mi vida")
         c = kb.getch()
         if (c == 'z'):
-            print("z")
             vel = frequencies['C']
         elif (c == 'x'):
             vel = frequencies['D']
@@ -52,11 +37,12 @@ while c != 'q':
             vel = frequencies['A']
         elif (c == 'm'):
             vel = frequencies['B']
+        elif (c == 'a'):
+            octava = max(1, octava-1) 
+            continue
+        elif (c == 'A'):
+            octava = min(4, octava + 1)
+            continue
         else: continue
         
-        sd.play(np.float32(data), SRATE*vel, blocking=True)
-
-
-
-print('end')
-stream.stop()
+        sd.play(np.float32(data), SRATE*vel*octava, blocking=False)

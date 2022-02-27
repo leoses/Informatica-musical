@@ -8,12 +8,6 @@ last = 0 # ultimo frame generado
 CHUNK = 1024
 VOL = 1.0
 
-def oscChuck(frec,vol):
-    global last # var global
-    data = vol*np.sin(2*np.pi*(np.arange(CHUNK)+last)*frec/SRATE, dtype="float32")
-    last += CHUNK # actualizamos ultimo generado
-    return data
-
 class Delay:
     def __init__(self, sound, delay):
         self.sound = sound
@@ -28,16 +22,15 @@ class Delay:
         #print("Longitud de la muestra despues de aplicar el retardo: " + str(len(delayedSound)))
         return delayedSound
 
-# aplicamos retardo de medio segundo
-retardo = Delay(data, 4)
-data = retardo.applyDelay()
+
+retardo = Delay(data, 0.2)
+dataRetarded = retardo.applyDelay()
 
 # informacion de wav
 print("\n\nInfo del wav ",SRATE)
 print("  Sample rate ",SRATE)
 print("  Sample format: ",data.dtype)
 print("  Num channels: ",len(data.shape))
-print("  Len: ",data.shape[0])
 
 # abrimos stream de salida
 stream = sd.OutputStream(
@@ -50,6 +43,10 @@ stream.start()
 nSamples = CHUNK 
 numBloque = 0
 
+diff = len(dataRetarded) - len(data)
+data = np.append(data, np.float32(np.zeros(diff)))
+data += dataRetarded
+
 # termina cuando el último bloque ha quedado incompleto (menos de CHUNK samples)
 while nSamples == CHUNK: 
     # numero de samples a procesar: CHUNK si quedan sufucientes y si no, los que queden
@@ -57,7 +54,6 @@ while nSamples == CHUNK:
 
     # nuevo bloque
     bloque = data[numBloque*CHUNK : numBloque*CHUNK+nSamples ]
-    bloque *= VOL
 
     # lo pasamos al stream
     stream.write(bloque) # escribimos al stream
