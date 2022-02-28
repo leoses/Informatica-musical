@@ -29,11 +29,11 @@ def input_callback(indata, frame_count, time, status):
 def output_Callback(out_data, frame_count, time_info, status):
     currentTime = time.time()
     if lastTime + DELAY < currentTime:
-        global frames
+        global buffer
         global bloque
-        bloque = frames[HALF_CHUNK: HALF_CHUNK + HALF_CHUNK]
-        frames = np.delete(frames, np.s_[HALF_CHUNK: HALF_CHUNK + HALF_CHUNK])
-        out_data=bloque.astype(frames.dtype).tobytes()
+        bloque = buffer[HALF_CHUNK: HALF_CHUNK + HALF_CHUNK]
+        buffer = np.delete(buffer, np.s_[HALF_CHUNK: HALF_CHUNK + HALF_CHUNK])
+        out_data=bloque.astype(buffer.dtype).tobytes()
 
 # abrimos stream de entrada (InpuStream)
 inputStream = sd.InputStream(samplerate=SRATE, blocksize=CHUNK, dtype="float32", channels=1,callback=input_callback)
