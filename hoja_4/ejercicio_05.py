@@ -1,16 +1,10 @@
-from chunk import Chunk
-import chunk
 import numpy as np         # arrays
 import sounddevice as sd   # modulo de conexión con portAudio
 import soundfile as sf     # para lectura/escritura de wavs
 import kbhit               # para lectura de teclas no bloqueante
 
-
-
-
-
 SRATE = 44100
-CHUNK = 2048
+CHUNK = 1024
 
 class Nota :
     def __init__(self, freq, dur):
@@ -88,9 +82,10 @@ while c != 'q':
         else: continue
         
         #una nota
-        nota= Nota(vel,2)
+        nota= Nota(vel,1)
         nota.initNota()
         lista.append(nota)
+    
     son=np.zeros(CHUNK)
     for elem in lista :
         auxchunk=elem.getchunks()
@@ -98,5 +93,5 @@ while c != 'q':
             lista.remove(elem)    
         son+= np.resize(auxchunk,CHUNK)
     
-    stream.write(np.float32(son))
+    stream.write(np.float32(son/max(1,len(lista))))
     
