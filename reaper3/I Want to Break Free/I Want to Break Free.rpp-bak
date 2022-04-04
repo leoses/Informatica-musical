@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.53/win64" 1649024499
+<REAPER_PROJECT 0.1 "6.53/win64" 1649090596
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,9 +16,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 46.70238570045227
-  ZOOM 10.66326682311601 0 0
-  VZOOMEX 4 416
+  CURSOR 53.90468132654562
+  ZOOM 8.88605568593008 0 0
+  VZOOMEX 4 340
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -419,7 +419,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -476,7 +476,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -557,7 +557,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -875,430 +875,984 @@
       PT 0 0 0
     >
   >
+  <TRACK {F09C37F8-7C4A-427D-8E2E-858CEAABA9E5}
+    NAME "Midi Drums"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 1
+    REC 0 5056 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {F09C37F8-7C4A-427D-8E2E-858CEAABA9E5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 382 175 938 516
+      SHOW 0
+      LASTSEL 3
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0.26730708080134
+      SNAPOFFS 0
+      LENGTH 253.27886978108944
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {03F32917-BEA5-4C06-B1CD-F19DE820B491}
+      IID 1
+      NAME "Ejerc1 Curso20-21 - comienzoNavidad.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4FE5B253-99BC-4A20-9422-A520B55C0F7C}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {1A1EA836-02DA-4E33-BA6B-A87EDC37F541}
+        <X 0 0 0 0 3 "Ejerc1 Curso20-21"
+          /wNFamVyYzEgQ3Vyc28yMC0yMQ==
+        >
+        <X 0 0 0 0 3 Piano
+          /wNQaWFubw==
+        >
+        E 0 e0 34 01
+        E 72494 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 55
+        E 240 80 26 00
+        E 240 90 24 36
+        E 240 80 24 00
+        E 240 90 24 64
+        E 0 90 24 4b
+        E 240 80 24 00
+        E 0 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 3625 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 0 90 24 64
+        E 240 80 24 00
+        E 0 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 206 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 50
+        E 240 80 26 00
+        E 240 90 24 27
+        E 240 80 24 00
+        E 240 90 24 50
+        E 0 90 24 50
+        E 240 80 24 00
+        E 0 80 24 00
+        E 720 90 26 50
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 4089 90 24 4d
+        E 240 80 24 00
+        E 720 90 26 4d
+        E 240 80 26 00
+        E 720 90 24 4c
+        E 240 80 24 00
+        E 720 90 26 4d
+        E 240 80 26 00
+        E 240 90 24 24
+        E 240 80 24 00
+        E 240 90 24 4d
+        E 240 80 24 00
+        E 720 90 26 4d
+        E 240 80 26 00
+        E 720 90 24 4c
+        E 240 80 24 00
+        E 720 90 26 4d
+        E 240 80 26 00
+        E 240 90 24 24
+        E 240 80 24 00
+        E 240 90 24 4d
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        e 720 90 26 58
+        e 240 80 26 00
+        e 240 90 24 2f
+        e 240 80 24 00
+        e 240 90 24 58
+        e 0 90 24 58
+        e 240 80 24 00
+        e 0 80 24 00
+        e 720 90 26 58
+        e 240 80 26 00
+        e 720 90 24 57
+        e 240 80 24 00
+        e 720 90 26 58
+        e 240 80 26 00
+        e 240 90 24 2f
+        e 240 80 24 00
+        e 240 90 24 58
+        e 240 80 24 00
+        e 720 90 26 58
+        e 240 80 26 00
+        e 720 90 24 57
+        e 240 80 24 00
+        e 720 90 26 58
+        e 240 80 26 00
+        e 240 90 24 2f
+        e 240 80 24 00
+        E 4080 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 0 90 24 64
+        E 240 80 24 00
+        E 0 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 4080 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 0 90 24 64
+        E 240 80 24 00
+        E 0 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 4080 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 56
+        E 240 80 26 00
+        E 720 90 24 55
+        E 240 80 24 00
+        E 720 90 26 56
+        E 240 80 26 00
+        E 240 90 24 2d
+        E 240 80 24 00
+        E 240 90 24 56
+        E 0 90 24 56
+        E 240 80 24 00
+        E 0 80 24 00
+        E 720 90 26 56
+        E 240 80 26 00
+        E 720 90 24 55
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 720 90 24 63
+        E 240 80 24 00
+        E 720 90 26 64
+        E 240 80 26 00
+        E 240 90 24 3b
+        E 240 80 24 00
+        E 240 90 24 64
+        E 240 80 24 00
+        E 11450 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {AD352DDC-27EF-468B-AA73-939EC9E2B0E6}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 4
+        VELLANE -1 100 0
+        CFGEDITVIEW 245921.789912 0.060997 77 24 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+  >
   <TRACK {FAA32279-1BBA-4517-B741-73B18C6AA586}
     NAME "Midi Kick"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    FREEMODE 0
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {FAA32279-1BBA-4517-B741-73B18C6AA586}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <FXCHAIN
-      WNDRECT 23 51 671 316
-      SHOW 0
-      LASTSEL 0
-      DOCKED 0
-      BYPASS 0 0 0
-      <VST "VSTi: Sitala (x86) (Decomposer) (32 out)" Sitala.dll 0 "" 1399420001<56535453697461736974616C61202878> ""
-        YXRpU+5e7f4AAAAAIAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAACAAAAAAAA
-        AAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAA
-        AABAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAACJPgAAAQAAAAAAEAA=
-        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCg0KPHNpdGFsYSB2ZXJzaW9uPSI1IiBjcmVhdG9yPSJTaXRhbGEgMS4wLjkiPg0KICA8c3RhdGU+
-        DQogICAgPHNvdW5kcz4NCiAgICAgIDxzb3VuZCBzbG90PSIwIiBuYW1lPSJLaWNrIiBtZDU9ImRhNGRlNjMyOWJhMjlmYjVhYWYxMzI4ZGFiZTFhYzQ2IiBzYW1wbGVF
-        bmQ9IjQ4MTQ0Ig0KICAgICAgICAgICAgIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0tpY2sgSGFsZiBEZWNheSBBY2NlbnQud2F2Ij4NCiAgICAg
-        ICAgPGNob2tlR3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjAiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAgICAg
-        ICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAgICAg
-        ICAgIDxob2xkIG1zPSIxMDkxLjcwMDY3MzEwMzMzMyIvPg0KICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxtYWtldXAgZGI9IjAuMCIv
-        Pg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAgICAgICAgICAgPGJ5cGFzc2VkLz4NCiAgICAgICAgICA8
-        L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9zaXRpb249IkMiLz4NCiAgICAgICAgICA8dG9uZSBtYWNy
-        bz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgICAgPG5vdGNoIGh6PSI0MDAu
-        MCIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90
-        b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjEiIG5hbWU9IlNuYXJlIiBtZDU9IjZhYjMyOTU4ZTA5
-        YWUwZjAxYmI5MzEwZDJkYTYyMjBlIg0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMTYzMjAiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL1NuYXJl
-        LndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSIxIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFt
-        ZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4w
-        Ii8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMzcwLjA2ODAxMzY2ODA2MDMiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFr
-        ZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+
-        DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAg
-        ICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxu
-        b3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0K
-        ICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIyIiBuYW1lPSJDbG9zZWQgSGkt
-        SGF0IiBtZDU9ImZmZTY0ODlmMTc5YjcyNGRkNDZjMjdjMzE3NzRjMmU2Ig0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iNTU2OCIgbG9jYXRpb249ImtpdDovL0NsZWFu
-        JTIwODA4L1NhbXBsZXMvQ2xvc2VkIEhhdC53YXYiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMiIvPg0KICAgICAgICAgIDxp
-        dGVtIGluZGV4PSIzIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAg
-        ICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMTI2LjI1ODUwNzM3MDk0
-        ODgiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAg
-        ICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVu
-        aW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFz
-        cyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDc5MS4xMzc2OTUzMTI1IiBnYWluRGI9IjAuMCIgcT0i
-        My41Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQogICAgICAgIDwvcGFy
-        YW1ldGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgICA8c291bmQgc2xvdD0iMyIgbmFtZT0iT3BlbiBIaS1IYXQiIG1kNT0iMjkzZGFiOTg4NjFkMDhhOWU4MDE4MTYx
-        MWYzNGVjYWUiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSI5OTA0IiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4lMjA4MDgvU2FtcGxlcy9PcGVuIEhhdCBEZWNheS53YXYi
-        Pg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMyIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJz
-        Pg0KICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0K
-        ICAgICAgICAgICAgPGhvbGQgbXM9IjIyNC41ODA0OTY1NDk2MDYzIi8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBk
-        Yj0iMC4wIi8+DQogICAgICAgICAgPC9zaGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAg
-        ICAgICAgIDwvY29tcHJlc3Npb24+DQogICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0
-        b25lIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2gg
-        aHo9IjQ3OTEuMTM3Njk1MzEyNSIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcx
-        Ii8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjQiIG5hbWU9IkN5bWJh
-        bCIgbWQ1PSI2NTg5NDUwOWVkNWUyNWNlZTZhN2U0Y2Y2ZGYwMGE3YSINCiAgICAgICAgICAgICBzYW1wbGVFbmQ9IjQ5NDI0IiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4l
-        MjA4MDgvU2FtcGxlcy9DeW1iYWwgMDEud2F2Ij4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNo
-        YXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMTEyMC43MjU2MzE3MTM4NjciLz4NCiAg
-        ICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21w
-        cmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIw
-        LjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIw
-        MDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iMzQyMy43NzkyOTY4NzUiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAg
-        ICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0K
-        ICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSI1IiBuYW1lPSJMb3cgVG9tIiBtZDU9ImQ1ODU3NDMwYWMyNWI5YzVkZWY0NjIxNmQ2MTllYWVjIg0KICAg
-        ICAgICAgICAgIHNhbXBsZUVuZD0iMjczMTIiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0xvdyBUb20ud2F2Ij4NCiAgICAgICAgPGNob2tlR3Jv
-        dXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjUiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAgICAgICAgICA8dm9sdW1l
-        IGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxob2xkIG1z
-        PSI2MTkuMzE5NzM2OTU3NTUiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8
-        L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4N
-        CiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAg
-        ICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4w
-        IiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAg
-        PC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSI2IiBuYW1lPSJNaWQgVG9tIiBtZDU9IjkxNTU2NTYyMDUwZDc1M2VjNTQyZjQ3
-        ODk3ZmI2OGJiIg0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMTg4ODAiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL01pZCBUb20ud2F2Ij4NCiAg
-        ICAgICAgPGNob2tlR3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjYiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAg
-        ICAgICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAg
-        ICAgICAgIDxob2xkIG1zPSI0MjguMTE3OTAxMDg2ODA3MyIvPg0KICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxtYWtldXAgZGI9IjAu
-        MCIvPg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAgICAgICAgICAgPGJ5cGFzc2VkLz4NCiAgICAgICAg
-        ICA8L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9zaXRpb249IkMiLz4NCiAgICAgICAgICA8dG9uZSBt
-        YWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgICAgPG5vdGNoIGh6PSI0
-        MDAuMCIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAg
-        PC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjciIG5hbWU9IkhpZ2ggVG9tIiBtZDU9IjJjNTQ1
-        OWQ1N2VlN2Q4YTFiNzMxZmYzNmIwNzUwZWI3Ig0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMjE0NzIiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVz
-        L0hpZ2ggVG9tLndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSI3Ii8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAg
-        ICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFj
-        ayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iNDg2Ljg5MzQxNTQ1MTA0OTgiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAg
-        ICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxi
-        eXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+
-        DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAg
-        ICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3
-        OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSI4IiBuYW1lPSJM
-        b3cgQ29uZ2EiIG1kNT0iNDc5NzQzZGNjMDM5MGU5NTM4MzAzODE5YmVhNmQxMmUiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSIyMjc4NCIgbG9jYXRpb249ImtpdDov
-        L0NsZWFuJTIwODA4L1NhbXBsZXMvTG93IENvbmdhLndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSI4Ii8+DQogICAgICAg
-        IDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUi
-        Pg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iNTE2LjY0NDAwMTAwNzA4MDEiLz4NCiAgICAgICAgICAgIDxkZWNh
-        eSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0i
-        MC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAg
-        ICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5
-        OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0i
-        MS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxz
-        b3VuZCBzbG90PSI5IiBuYW1lPSJNaWQgQ29uZ2EiIG1kNT0iNGQyMGExZjJlZmIwZjA3MGI5NTA4ZjNmYjg2OTM2MjEiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSIx
-        MTc2MCIgbG9jYXRpb249ImtpdDovL0NsZWFuJTIwODA4L1NhbXBsZXMvTWlkIENvbmdhLndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVt
-        IGluZGV4PSI5Ii8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAg
-        ICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMjY2LjY2NjY4MDU3NDQxNzEi
-        Lz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAg
-        IDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5n
-        IGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBo
-        ej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAg
-        ICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAg
-        ICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIxMCIgbmFtZT0iSGlnaCBDb25nYSIgbWQ1PSI4NmRmYmVmZDFjY2QwOTIyNWQ0ODY1NmUxYTE1M2M4NCINCiAg
-        ICAgICAgICAgICBzYW1wbGVFbmQ9Ijk4ODgiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0hpZ2ggQ29uZ2Eud2F2Ij4NCiAgICAgICAgPGNob2tl
-        R3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjEwIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZv
-        bHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9s
-        ZCBtcz0iMjI0LjIxNzY4MzA3Njg1ODUiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAg
-        ICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVz
-        c2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+
-        DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5E
-        Yj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAg
-        ICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIxMSIgbmFtZT0iSGFuZCBDbGFwIiBtZDU9IjlmY2YxNTZlYTZlNmU3
-        ZjBjOTg5ODIxMDhiZDE5ZTUyIg0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iNDQzNTEiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0hhbmQgQ2xh
-        cCBTZW1pLURyeS53YXYiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMTEiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAg
-        ICAgICA8cGFyYW1ldGVycz4NCiAgICAgICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0
-        YWNrIG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxob2xkIG1zPSIxMDA1LjY5MTY0NzUyOTYwMiIvPg0KICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAiLz4NCiAgICAg
-        ICAgICAgIDxtYWtldXAgZGI9IjAuMCIvPg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAgICAgICAgICAg
-        PGJ5cGFzc2VkLz4NCiAgICAgICAgICA8L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9zaXRpb249IkMi
-        Lz4NCiAgICAgICAgICA8dG9uZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAg
-        ICAgICAgICAgPG5vdGNoIGh6PSI1NzAuNjI5ODgyODEyNSIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAu
-        Njk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9
-        IjEyIiBuYW1lPSJDbGF2ZSIgbWQ1PSI0MmIyZDlkNGYwZWQ4M2UyMmRhMTc3ZjViZGNkZmY1YiINCiAgICAgICAgICAgICBzYW1wbGVFbmQ9IjE2MDAiIGxvY2F0aW9u
-        PSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0NsYXZlLndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSIxMiIvPg0KICAg
-        ICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0i
-        MC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQgbXM9IjM2LjI4MTE3OTYzNjcxNjg0Ii8+DQogICAgICAgICAgICA8
-        ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBkYj0iMC4wIi8+DQogICAgICAgICAgPC9zaGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFj
-        cm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAgICAgICAgIDwvY29tcHJlc3Npb24+DQogICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAg
-        ICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0b25lIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAu
-        Njk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2ggaHo9IjI0MjIuNDg1MzUxNTYyNSIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAg
-        PGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3Nv
-        dW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjEzIiBuYW1lPSJNYXJhY2EiIG1kNT0iYzIwYzM4OWU4YmNiNzUyMTFkOGU5ZmZjYmViN2Q0ODQiDQogICAgICAgICAgICAg
-        c2FtcGxlRW5kPSIyMjQwIiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4lMjA4MDgvU2FtcGxlcy9NYXJhY2Eud2F2Ij4NCiAgICAgICAgPGNob2tlR3JvdXA+DQogICAgICAg
-        ICAgPGl0ZW0gaW5kZXg9IjEzIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+
-        DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iNTAuNzkzNjUx
-        NDkxNDAzNTgiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0K
-        ICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAg
-        ICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8
-        bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDY5NC4yMzgyODEyNSIgZ2FpbkRiPSIwLjAi
-        IHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8
-        L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjE0IiBuYW1lPSJDb3diZWxsIiBtZDU9ImE3NTIzZGYzMjk4MTkwYTE2NGZjY2Y0
-        NTNlNTQyOTA5Ig0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMTg0MzIiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0Nvd2JlbGwud2F2Ij4NCiAg
-        ICAgICAgPGNob2tlR3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjE0Ii8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQog
-        ICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAg
-        ICAgICAgICA8aG9sZCBtcz0iNDE3Ljk1OTE4MzQ1NDUxMzUiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIw
-        LjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAg
-        ICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUg
-        bWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0i
-        Nzc1LjE5NTMxMjUiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAg
-        ICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIxNSIgbmFtZT0iUmltIFNob3QiIG1k
-        NT0iZTU0NGM5Yzc5NzQ4NDU1NTc2ZmVhZWU5MTIxOGRjZDUiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSI5NzYiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9T
-        YW1wbGVzL1JpbSBTaG90LndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSIxNSIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+
-        DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAg
-        IDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQgbXM9IjIyLjEzMTUxOTM5MjEzMjc2Ii8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0K
-        ICAgICAgICAgICAgPG1ha2V1cCBkYj0iMC4wIi8+DQogICAgICAgICAgPC9zaGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAg
-        ICAgICA8YnlwYXNzZWQvPg0KICAgICAgICAgIDwvY29tcHJlc3Npb24+DQogICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlv
-        bj0iQyIvPg0KICAgICAgICAgIDx0b25lIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+
-        DQogICAgICAgICAgICA8bm90Y2ggaHo9IjQwMC4wIiBnYWluRGI9IjAuMCIgcT0iMy41Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5
-        OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQogICAgICAgIDwvcGFyYW1ldGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgPC9zb3VuZHM+DQogICAgPG1h
-        cHBpbmcgcHJlc2V0PSJjaHJvbWF0aWMiPg0KICAgICAgPHRyaWdnZXJNYXA+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSIzNiIgc2xvdD0iMCIvPg0KICAgICAgICA8
-        aXRlbSBtaWRpTm90ZT0iMzciIHNsb3Q9IjEiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjM4IiBzbG90PSIyIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSIz
-        OSIgc2xvdD0iMyIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDAiIHNsb3Q9IjQiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQxIiBzbG90PSI1Ii8+DQog
-        ICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0MiIgc2xvdD0iNiIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDMiIHNsb3Q9IjciLz4NCiAgICAgICAgPGl0ZW0gbWlk
-        aU5vdGU9IjQ0IiBzbG90PSI4Ii8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0NSIgc2xvdD0iOSIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDYiIHNsb3Q9
-        IjEwIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0NyIgc2xvdD0iMTEiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ4IiBzbG90PSIxMiIvPg0KICAgICAg
-        ICA8aXRlbSBtaWRpTm90ZT0iNDkiIHNsb3Q9IjEzIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI1MCIgc2xvdD0iMTQiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5v
-        dGU9IjUxIiBzbG90PSIxNSIvPg0KICAgICAgPC90cmlnZ2VyTWFwPg0KICAgICAgPHBhcmFtZXRlck1hcC8+DQogICAgICA8cGFkU2VsZWN0TWFwLz4NCiAgICA8L21h
-        cHBpbmc+DQogICAgPGtpdCBsYWJlbD0iQ2xlYW4gODA4IiBtb2RpZmllZD0iMCIvPg0KICAgIDxnZW5lcmFsTWlkaU1hcHBpbmc+DQogICAgICA8dHJpZ2dlck1hcD4N
-        CiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjM2IiBzbG90PSIwIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSIzOCIgc2xvdD0iMSIvPg0KICAgICAgICA8aXRlbSBt
-        aWRpTm90ZT0iNDIiIHNsb3Q9IjIiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ2IiBzbG90PSIzIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0OSIgc2xv
-        dD0iNCIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDUiIHNsb3Q9IjUiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ3IiBzbG90PSI2Ii8+DQogICAgICAg
-        IDxpdGVtIG1pZGlOb3RlPSI1MCIgc2xvdD0iNyIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNjQiIHNsb3Q9IjgiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9
-        IjYyIiBzbG90PSI5Ii8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI2MyIgc2xvdD0iMTAiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjM5IiBzbG90PSIxMSIv
-        Pg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNzUiIHNsb3Q9IjEyIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI3MCIgc2xvdD0iMTMiLz4NCiAgICAgICAgPGl0
-        ZW0gbWlkaU5vdGU9IjU2IiBzbG90PSIxNCIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iMzciIHNsb3Q9IjE1Ii8+DQogICAgICA8L3RyaWdnZXJNYXA+DQogICAg
-        PC9nZW5lcmFsTWlkaU1hcHBpbmc+DQogICAgPG1ldGEgY3JlYXRvcj0iRGVjb21wb3NlciIgZGVzY3JpcHRpb249IkNsZWFuIFNhbXBsZWQgODA4Ii8+DQogICAgPHZp
-        ZXdTdGF0ZSBzZWxlY3RlZFNsb3Q9IjAiLz4NCiAgICA8aW1wb3J0SGlzdG9yeS8+DQogIDwvc3RhdGU+DQo8L3NpdGFsYT4NCg==
-        AENsZWFuIDgwOAAQAAAA
-      >
-      PRESETNAME "Clean 808"
-      FLOATPOS 0 0 0 0
-      FXID {893902A3-EAD6-48B0-916F-96EC907B97E7}
-      WAK 0 0
-    >
-  >
-  <TRACK {7450D464-6131-4E2E-8F99-905D7121C3C2}
-    NAME "Midi Snare"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    FREEMODE 0
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {7450D464-6131-4E2E-8F99-905D7121C3C2}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <FXCHAIN
-      WNDRECT 23 51 671 316
-      SHOW 0
-      LASTSEL 0
-      DOCKED 0
-      BYPASS 0 0 0
-      <VST "VSTi: Sitala (x86) (Decomposer) (32 out)" Sitala.dll 0 "" 1399420001<56535453697461736974616C61202878> ""
-        YXRpU+5e7f4AAAAAIAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAACAAAAAAAA
-        AAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAA
-        AABAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAACJPgAAAQAAAAAAEAA=
-        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCg0KPHNpdGFsYSB2ZXJzaW9uPSI1IiBjcmVhdG9yPSJTaXRhbGEgMS4wLjkiPg0KICA8c3RhdGU+
-        DQogICAgPHNvdW5kcz4NCiAgICAgIDxzb3VuZCBzbG90PSIwIiBuYW1lPSJLaWNrIiBtZDU9ImRhNGRlNjMyOWJhMjlmYjVhYWYxMzI4ZGFiZTFhYzQ2IiBzYW1wbGVF
-        bmQ9IjQ4MTQ0Ig0KICAgICAgICAgICAgIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0tpY2sgSGFsZiBEZWNheSBBY2NlbnQud2F2Ij4NCiAgICAg
-        ICAgPGNob2tlR3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjAiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAgICAg
-        ICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAgICAg
-        ICAgIDxob2xkIG1zPSIxMDkxLjcwMDY3MzEwMzMzMyIvPg0KICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxtYWtldXAgZGI9IjAuMCIv
-        Pg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAgICAgICAgICAgPGJ5cGFzc2VkLz4NCiAgICAgICAgICA8
-        L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9zaXRpb249IkMiLz4NCiAgICAgICAgICA8dG9uZSBtYWNy
-        bz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgICAgPG5vdGNoIGh6PSI0MDAu
-        MCIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90
-        b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjEiIG5hbWU9IlNuYXJlIiBtZDU9IjZhYjMyOTU4ZTA5
-        YWUwZjAxYmI5MzEwZDJkYTYyMjBlIg0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMTYzMjAiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL1NuYXJl
-        LndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSIxIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFt
-        ZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4w
-        Ii8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMzcwLjA2ODAxMzY2ODA2MDMiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFr
-        ZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+
-        DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAg
-        ICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxu
-        b3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0K
-        ICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIyIiBuYW1lPSJDbG9zZWQgSGkt
-        SGF0IiBtZDU9ImZmZTY0ODlmMTc5YjcyNGRkNDZjMjdjMzE3NzRjMmU2Ig0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iNTU2OCIgbG9jYXRpb249ImtpdDovL0NsZWFu
-        JTIwODA4L1NhbXBsZXMvQ2xvc2VkIEhhdC53YXYiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMiIvPg0KICAgICAgICAgIDxp
-        dGVtIGluZGV4PSIzIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAg
-        ICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMTI2LjI1ODUwNzM3MDk0
-        ODgiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAg
-        ICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVu
-        aW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFz
-        cyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDc5MS4xMzc2OTUzMTI1IiBnYWluRGI9IjAuMCIgcT0i
-        My41Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQogICAgICAgIDwvcGFy
-        YW1ldGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgICA8c291bmQgc2xvdD0iMyIgbmFtZT0iT3BlbiBIaS1IYXQiIG1kNT0iMjkzZGFiOTg4NjFkMDhhOWU4MDE4MTYx
-        MWYzNGVjYWUiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSI5OTA0IiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4lMjA4MDgvU2FtcGxlcy9PcGVuIEhhdCBEZWNheS53YXYi
-        Pg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMyIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJz
-        Pg0KICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0K
-        ICAgICAgICAgICAgPGhvbGQgbXM9IjIyNC41ODA0OTY1NDk2MDYzIi8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBk
-        Yj0iMC4wIi8+DQogICAgICAgICAgPC9zaGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAg
-        ICAgICAgIDwvY29tcHJlc3Npb24+DQogICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0
-        b25lIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2gg
-        aHo9IjQ3OTEuMTM3Njk1MzEyNSIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcx
-        Ii8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjQiIG5hbWU9IkN5bWJh
-        bCIgbWQ1PSI2NTg5NDUwOWVkNWUyNWNlZTZhN2U0Y2Y2ZGYwMGE3YSINCiAgICAgICAgICAgICBzYW1wbGVFbmQ9IjQ5NDI0IiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4l
-        MjA4MDgvU2FtcGxlcy9DeW1iYWwgMDEud2F2Ij4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNo
-        YXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMTEyMC43MjU2MzE3MTM4NjciLz4NCiAg
-        ICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21w
-        cmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIw
-        LjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIw
-        MDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iMzQyMy43NzkyOTY4NzUiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAg
-        ICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0K
-        ICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSI1IiBuYW1lPSJMb3cgVG9tIiBtZDU9ImQ1ODU3NDMwYWMyNWI5YzVkZWY0NjIxNmQ2MTllYWVjIg0KICAg
-        ICAgICAgICAgIHNhbXBsZUVuZD0iMjczMTIiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0xvdyBUb20ud2F2Ij4NCiAgICAgICAgPGNob2tlR3Jv
-        dXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjUiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAgICAgICAgICA8dm9sdW1l
-        IGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxob2xkIG1z
-        PSI2MTkuMzE5NzM2OTU3NTUiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8
-        L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4N
-        CiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAg
-        ICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4w
-        IiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAg
-        PC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSI2IiBuYW1lPSJNaWQgVG9tIiBtZDU9IjkxNTU2NTYyMDUwZDc1M2VjNTQyZjQ3
-        ODk3ZmI2OGJiIg0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMTg4ODAiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL01pZCBUb20ud2F2Ij4NCiAg
-        ICAgICAgPGNob2tlR3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjYiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAg
-        ICAgICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAg
-        ICAgICAgIDxob2xkIG1zPSI0MjguMTE3OTAxMDg2ODA3MyIvPg0KICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxtYWtldXAgZGI9IjAu
-        MCIvPg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAgICAgICAgICAgPGJ5cGFzc2VkLz4NCiAgICAgICAg
-        ICA8L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9zaXRpb249IkMiLz4NCiAgICAgICAgICA8dG9uZSBt
-        YWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgICAgPG5vdGNoIGh6PSI0
-        MDAuMCIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAg
-        PC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjciIG5hbWU9IkhpZ2ggVG9tIiBtZDU9IjJjNTQ1
-        OWQ1N2VlN2Q4YTFiNzMxZmYzNmIwNzUwZWI3Ig0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMjE0NzIiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVz
-        L0hpZ2ggVG9tLndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSI3Ii8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAg
-        ICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFj
-        ayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iNDg2Ljg5MzQxNTQ1MTA0OTgiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAg
-        ICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxi
-        eXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+
-        DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAg
-        ICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3
-        OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSI4IiBuYW1lPSJM
-        b3cgQ29uZ2EiIG1kNT0iNDc5NzQzZGNjMDM5MGU5NTM4MzAzODE5YmVhNmQxMmUiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSIyMjc4NCIgbG9jYXRpb249ImtpdDov
-        L0NsZWFuJTIwODA4L1NhbXBsZXMvTG93IENvbmdhLndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSI4Ii8+DQogICAgICAg
-        IDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUi
-        Pg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iNTE2LjY0NDAwMTAwNzA4MDEiLz4NCiAgICAgICAgICAgIDxkZWNh
-        eSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0i
-        MC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAg
-        ICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5
-        OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0i
-        MS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxz
-        b3VuZCBzbG90PSI5IiBuYW1lPSJNaWQgQ29uZ2EiIG1kNT0iNGQyMGExZjJlZmIwZjA3MGI5NTA4ZjNmYjg2OTM2MjEiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSIx
-        MTc2MCIgbG9jYXRpb249ImtpdDovL0NsZWFuJTIwODA4L1NhbXBsZXMvTWlkIENvbmdhLndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVt
-        IGluZGV4PSI5Ii8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAg
-        ICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMjY2LjY2NjY4MDU3NDQxNzEi
-        Lz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAg
-        IDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5n
-        IGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBo
-        ej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAg
-        ICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAg
-        ICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIxMCIgbmFtZT0iSGlnaCBDb25nYSIgbWQ1PSI4NmRmYmVmZDFjY2QwOTIyNWQ0ODY1NmUxYTE1M2M4NCINCiAg
-        ICAgICAgICAgICBzYW1wbGVFbmQ9Ijk4ODgiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0hpZ2ggQ29uZ2Eud2F2Ij4NCiAgICAgICAgPGNob2tl
-        R3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjEwIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZv
-        bHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9s
-        ZCBtcz0iMjI0LjIxNzY4MzA3Njg1ODUiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAg
-        ICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVz
-        c2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+
-        DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5E
-        Yj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAg
-        ICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIxMSIgbmFtZT0iSGFuZCBDbGFwIiBtZDU9IjlmY2YxNTZlYTZlNmU3
-        ZjBjOTg5ODIxMDhiZDE5ZTUyIg0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iNDQzNTEiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0hhbmQgQ2xh
-        cCBTZW1pLURyeS53YXYiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMTEiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAg
-        ICAgICA8cGFyYW1ldGVycz4NCiAgICAgICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0
-        YWNrIG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxob2xkIG1zPSIxMDA1LjY5MTY0NzUyOTYwMiIvPg0KICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAiLz4NCiAgICAg
-        ICAgICAgIDxtYWtldXAgZGI9IjAuMCIvPg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAgICAgICAgICAg
-        PGJ5cGFzc2VkLz4NCiAgICAgICAgICA8L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9zaXRpb249IkMi
-        Lz4NCiAgICAgICAgICA8dG9uZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAg
-        ICAgICAgICAgPG5vdGNoIGh6PSI1NzAuNjI5ODgyODEyNSIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAu
-        Njk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9
-        IjEyIiBuYW1lPSJDbGF2ZSIgbWQ1PSI0MmIyZDlkNGYwZWQ4M2UyMmRhMTc3ZjViZGNkZmY1YiINCiAgICAgICAgICAgICBzYW1wbGVFbmQ9IjE2MDAiIGxvY2F0aW9u
-        PSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0NsYXZlLndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSIxMiIvPg0KICAg
-        ICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0i
-        MC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQgbXM9IjM2LjI4MTE3OTYzNjcxNjg0Ii8+DQogICAgICAgICAgICA8
-        ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBkYj0iMC4wIi8+DQogICAgICAgICAgPC9zaGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFj
-        cm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAgICAgICAgIDwvY29tcHJlc3Npb24+DQogICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAg
-        ICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0b25lIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAu
-        Njk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2ggaHo9IjI0MjIuNDg1MzUxNTYyNSIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAg
-        PGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3Nv
-        dW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjEzIiBuYW1lPSJNYXJhY2EiIG1kNT0iYzIwYzM4OWU4YmNiNzUyMTFkOGU5ZmZjYmViN2Q0ODQiDQogICAgICAgICAgICAg
-        c2FtcGxlRW5kPSIyMjQwIiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4lMjA4MDgvU2FtcGxlcy9NYXJhY2Eud2F2Ij4NCiAgICAgICAgPGNob2tlR3JvdXA+DQogICAgICAg
-        ICAgPGl0ZW0gaW5kZXg9IjEzIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+
-        DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iNTAuNzkzNjUx
-        NDkxNDAzNTgiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0K
-        ICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAg
-        ICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8
-        bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDY5NC4yMzgyODEyNSIgZ2FpbkRiPSIwLjAi
-        IHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8
-        L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjE0IiBuYW1lPSJDb3diZWxsIiBtZDU9ImE3NTIzZGYzMjk4MTkwYTE2NGZjY2Y0
-        NTNlNTQyOTA5Ig0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMTg0MzIiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0Nvd2JlbGwud2F2Ij4NCiAg
-        ICAgICAgPGNob2tlR3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjE0Ii8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQog
-        ICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAg
-        ICAgICAgICA8aG9sZCBtcz0iNDE3Ljk1OTE4MzQ1NDUxMzUiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIw
-        LjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAg
-        ICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUg
-        bWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0i
-        Nzc1LjE5NTMxMjUiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAg
-        ICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIxNSIgbmFtZT0iUmltIFNob3QiIG1k
-        NT0iZTU0NGM5Yzc5NzQ4NDU1NTc2ZmVhZWU5MTIxOGRjZDUiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSI5NzYiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9T
-        YW1wbGVzL1JpbSBTaG90LndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSIxNSIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+
-        DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAg
-        IDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQgbXM9IjIyLjEzMTUxOTM5MjEzMjc2Ii8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0K
-        ICAgICAgICAgICAgPG1ha2V1cCBkYj0iMC4wIi8+DQogICAgICAgICAgPC9zaGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAg
-        ICAgICA8YnlwYXNzZWQvPg0KICAgICAgICAgIDwvY29tcHJlc3Npb24+DQogICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlv
-        bj0iQyIvPg0KICAgICAgICAgIDx0b25lIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+
-        DQogICAgICAgICAgICA8bm90Y2ggaHo9IjQwMC4wIiBnYWluRGI9IjAuMCIgcT0iMy41Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5
-        OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQogICAgICAgIDwvcGFyYW1ldGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgPC9zb3VuZHM+DQogICAgPG1h
-        cHBpbmcgcHJlc2V0PSJjaHJvbWF0aWMiPg0KICAgICAgPHRyaWdnZXJNYXA+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSIzNiIgc2xvdD0iMCIvPg0KICAgICAgICA8
-        aXRlbSBtaWRpTm90ZT0iMzciIHNsb3Q9IjEiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjM4IiBzbG90PSIyIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSIz
-        OSIgc2xvdD0iMyIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDAiIHNsb3Q9IjQiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQxIiBzbG90PSI1Ii8+DQog
-        ICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0MiIgc2xvdD0iNiIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDMiIHNsb3Q9IjciLz4NCiAgICAgICAgPGl0ZW0gbWlk
-        aU5vdGU9IjQ0IiBzbG90PSI4Ii8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0NSIgc2xvdD0iOSIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDYiIHNsb3Q9
-        IjEwIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0NyIgc2xvdD0iMTEiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ4IiBzbG90PSIxMiIvPg0KICAgICAg
-        ICA8aXRlbSBtaWRpTm90ZT0iNDkiIHNsb3Q9IjEzIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI1MCIgc2xvdD0iMTQiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5v
-        dGU9IjUxIiBzbG90PSIxNSIvPg0KICAgICAgPC90cmlnZ2VyTWFwPg0KICAgICAgPHBhcmFtZXRlck1hcC8+DQogICAgICA8cGFkU2VsZWN0TWFwLz4NCiAgICA8L21h
-        cHBpbmc+DQogICAgPGtpdCBsYWJlbD0iQ2xlYW4gODA4IiBtb2RpZmllZD0iMCIvPg0KICAgIDxnZW5lcmFsTWlkaU1hcHBpbmc+DQogICAgICA8dHJpZ2dlck1hcD4N
-        CiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjM2IiBzbG90PSIwIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSIzOCIgc2xvdD0iMSIvPg0KICAgICAgICA8aXRlbSBt
-        aWRpTm90ZT0iNDIiIHNsb3Q9IjIiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ2IiBzbG90PSIzIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0OSIgc2xv
-        dD0iNCIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDUiIHNsb3Q9IjUiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ3IiBzbG90PSI2Ii8+DQogICAgICAg
-        IDxpdGVtIG1pZGlOb3RlPSI1MCIgc2xvdD0iNyIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNjQiIHNsb3Q9IjgiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9
-        IjYyIiBzbG90PSI5Ii8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI2MyIgc2xvdD0iMTAiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjM5IiBzbG90PSIxMSIv
-        Pg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNzUiIHNsb3Q9IjEyIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI3MCIgc2xvdD0iMTMiLz4NCiAgICAgICAgPGl0
-        ZW0gbWlkaU5vdGU9IjU2IiBzbG90PSIxNCIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iMzciIHNsb3Q9IjE1Ii8+DQogICAgICA8L3RyaWdnZXJNYXA+DQogICAg
-        PC9nZW5lcmFsTWlkaU1hcHBpbmc+DQogICAgPG1ldGEgY3JlYXRvcj0iRGVjb21wb3NlciIgZGVzY3JpcHRpb249IkNsZWFuIFNhbXBsZWQgODA4Ii8+DQogICAgPHZp
-        ZXdTdGF0ZSBzZWxlY3RlZFNsb3Q9IjAiLz4NCiAgICA8aW1wb3J0SGlzdG9yeS8+DQogIDwvc3RhdGU+DQo8L3NpdGFsYT4NCg==
-        AENsZWFuIDgwOAAQAAAA
-      >
-      PRESETNAME "Clean 808"
-      FLOATPOS 0 0 0 0
-      FXID {A6C3063E-4288-4F22-8D69-6B31BCB7D687}
-      WAK 0 0
-    >
-  >
-  <TRACK {E2631B35-F11E-4076-82D3-B33D656BEA39}
-    NAME Kick_old
-    PEAKCOL 29067889
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 0.70462939198009 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1313,983 +1867,282 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {E2631B35-F11E-4076-82D3-B33D656BEA39}
+    TRACKID {FAA32279-1BBA-4517-B741-73B18C6AA586}
     PERF 0
+    AUXRECV 13 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 23 51 870 502
+      WNDRECT 23 51 671 316
       SHOW 0
       LASTSEL 0
       DOCKED 0
-    >
-    <ITEM
-      POSITION 1.55941198260276
-      SNAPOFFS 0
-      LENGTH 40.06252693330612
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {9F0F3F47-7C18-4A45-B8D2-4C2A04E22D73}
-      IID 39
-      NAME Kick.ogg
-      VOLPAN 1 0 1 -1
-      SOFFS 1.54418756750514
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {11EE773A-B906-41C2-93CD-97E573805E8C}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
+      BYPASS 0 0 0
+      <VST "VSTi: Sitala (x86) (Decomposer) (32 out)" Sitala.dll 0 "" 1399420001<56535453697461736974616C61202878> ""
+        YXRpU+5e7f4AAAAAIAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAACAAAAAAAA
+        AAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAA
+        AABAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAASEAAAAQAAAAAAEAA=
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCg0KPHNpdGFsYSB2ZXJzaW9uPSI1IiBjcmVhdG9yPSJTaXRhbGEgMS4wLjkiPg0KICA8c3RhdGU+
+        DQogICAgPHNvdW5kcz4NCiAgICAgIDxzb3VuZCBzbG90PSIwIiBsb2NhdGlvbj0iZmlsZTovLy9EJTNBL0dpdEh1Yi9JbmZvcm1hdGljYS1tdXNpY2FsL3JlYXBlcjMv
+        SSUyMFdhbnQlMjB0byUyMEJyZWFrJTIwRnJlZS9LaWNrJTIwcmVuZGVyJTIwMDAzLndhdiINCiAgICAgICAgICAgICBuYW1lPSJLaWNrIHJlbmRlciIgbWQ1PSI0ODUx
+        NWJiZmM1ZTljNjkxNWQwNWFjYjdmYWQxOGJlMSIgc2FtcGxlU3RhcnQ9IjAiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSI0NjkzIiB3YXNUcmlnZ2VyZWQ9IjEiPg0K
+        ICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMCIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0K
+        ICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAg
+        ICAgICAgICAgPGhvbGQgbXM9IjEwNi40MTcyMzEyNjE3MzAyIi8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBkYj0i
+        Ni4yMTI2MzA1MjM4MDUyNzRlLTYiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxi
+        eXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+
+        DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAg
+        ICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3
+        OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIyIiBsb2NhdGlv
+        bj0iZmlsZTovLy9EJTNBL0dpdEh1Yi9JbmZvcm1hdGljYS1tdXNpY2FsL3JlYXBlcjMvSSUyMFdhbnQlMjB0byUyMEJyZWFrJTIwRnJlZS9TbmFyZTElMjByZW5kZXIl
+        MjAwMDIud2F2Ig0KICAgICAgICAgICAgIG5hbWU9IlNuYXJlMSByZW5kZXIiIG1kNT0iOWEwZTQ0YTIyNDJiY2ZmNjUzZTc5Y2QwMjUzYTRmNTAiIHNhbXBsZVN0YXJ0
+        PSIxIg0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMjAxOTciIHdhc1RyaWdnZXJlZD0iMSI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGlu
+        ZGV4PSIyIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAg
+        PHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iNDU3Ljk4MTg1NDY3NzIwMDMiLz4N
+        CiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxj
+        b21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0
+        PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0i
+        MjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAg
+        ICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAg
+        PC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIzIiBsb2NhdGlvbj0iZmlsZTovLy9EJTNBL0dpdEh1Yi9JbmZvcm1hdGljYS1tdXNpY2FsL3JlYXBlcjMvSSUyMFdh
+        bnQlMjB0byUyMEJyZWFrJTIwRnJlZS9TbmFyZTElMjByZW5kZXIlMjAwMDMud2F2Ig0KICAgICAgICAgICAgIG5hbWU9IlNuYXJlMSByZW5kZXIgMDIiIG1kNT0iYTk2
+        YmEzYjU3NGRkMzQ1NWFjOTQ3OTU1MDgzMTMxODAiDQogICAgICAgICAgICAgc2FtcGxlU3RhcnQ9IjAiIHNhbXBsZUVuZD0iMzgzMTAiPg0KICAgICAgICA8Y2hva2VH
+        cm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMyIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1
+        bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQg
+        bXM9Ijg2OC43MDc0NzgwNDY0MTcyIi8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBkYj0iMC4wIi8+DQogICAgICAg
+        ICAgPC9zaGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAgICAgICAgIDwvY29tcHJlc3Np
+        b24+DQogICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0b25lIG1hY3JvPSIwLjUiPg0K
+        ICAgICAgICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2ggaHo9IjQwMC4wIiBnYWluRGI9
+        IjAuMCIgcT0iMy41Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQogICAg
+        ICAgIDwvcGFyYW1ldGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgPC9zb3VuZHM+DQogICAgPG1hcHBpbmcgcHJlc2V0PSJjaHJvbWF0aWMiPg0KICAgICAgPHRyaWdn
+        ZXJNYXA+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSIzNiIgc2xvdD0iMCIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iMzciIHNsb3Q9IjEiLz4NCiAgICAgICAg
+        PGl0ZW0gbWlkaU5vdGU9IjM4IiBzbG90PSIyIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSIzOSIgc2xvdD0iMyIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0i
+        NDAiIHNsb3Q9IjQiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQxIiBzbG90PSI1Ii8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0MiIgc2xvdD0iNiIvPg0K
+        ICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDMiIHNsb3Q9IjciLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ0IiBzbG90PSI4Ii8+DQogICAgICAgIDxpdGVtIG1p
+        ZGlOb3RlPSI0NSIgc2xvdD0iOSIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDYiIHNsb3Q9IjEwIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0NyIgc2xv
+        dD0iMTEiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ4IiBzbG90PSIxMiIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDkiIHNsb3Q9IjEzIi8+DQogICAg
+        ICAgIDxpdGVtIG1pZGlOb3RlPSI1MCIgc2xvdD0iMTQiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjUxIiBzbG90PSIxNSIvPg0KICAgICAgPC90cmlnZ2VyTWFw
+        Pg0KICAgICAgPHBhcmFtZXRlck1hcC8+DQogICAgICA8cGFkU2VsZWN0TWFwLz4NCiAgICA8L21hcHBpbmc+DQogICAgPGtpdCBsYWJlbD0iVW50aXRsZWQiIG1vZGlm
+        aWVkPSIxIi8+DQogICAgPGdlbmVyYWxNaWRpTWFwcGluZz4NCiAgICAgIDx0cmlnZ2VyTWFwLz4NCiAgICA8L2dlbmVyYWxNaWRpTWFwcGluZz4NCiAgICA8bWV0YS8+
+        DQogICAgPHZpZXdTdGF0ZSBzZWxlY3RlZFNsb3Q9IjAiLz4NCiAgICA8aW1wb3J0SGlzdG9yeS8+DQogIDwvc3RhdGU+DQo8L3NpdGFsYT4NCg==
+        AAAQAAAA
       >
+      FLOATPOS 55 83 390 257
+      FXID {893902A3-EAD6-48B0-916F-96EC907B97E7}
+      WAK 0 0
     >
-    <ITEM
-      POSITION 41.62193891590888
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {215983E3-E1DC-4637-9E73-621A6484C07E}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 1 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {1488A7D4-DBE6-4603-9571-EF18626EAB65}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
+  >
+  <TRACK {7450D464-6131-4E2E-8F99-905D7121C3C2}
+    NAME "Midi Snare"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.60809580250146 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7450D464-6131-4E2E-8F99-905D7121C3C2}
+    PERF 0
+    AUXRECV 13 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 23 51 671 316
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: Sitala (x86) (Decomposer) (32 out)" Sitala.dll 0 "" 1399420001<56535453697461736974616C61202878> ""
+        YXRpU+5e7f4AAAAAIAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAACAAAAAAAA
+        AAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAA
+        AABAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAACBPwAAAQAAAAAAEAA=
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCg0KPHNpdGFsYSB2ZXJzaW9uPSI1IiBjcmVhdG9yPSJTaXRhbGEgMS4wLjkiPg0KICA8c3RhdGU+
+        DQogICAgPHNvdW5kcz4NCiAgICAgIDxzb3VuZCBzbG90PSIwIiBuYW1lPSJLaWNrIiBtZDU9ImRhNGRlNjMyOWJhMjlmYjVhYWYxMzI4ZGFiZTFhYzQ2IiBzYW1wbGVF
+        bmQ9IjQ4MTQ0Ig0KICAgICAgICAgICAgIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL0tpY2sgSGFsZiBEZWNheSBBY2NlbnQud2F2Ig0KICAgICAg
+        ICAgICAgIHdhc1RyaWdnZXJlZD0iMSI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSIwIi8+DQogICAgICAgIDwvY2hva2VHcm91
+        cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAg
+        ICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMTA5MS43MDA2NzMxMDMzMzMiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+
+        DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAg
+        ICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0
+        aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEi
+        Lz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5
+        OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSIx
+        IiBuYW1lPSJTbmFyZSIgbWQ1PSI2YWIzMjk1OGUwOWFlMGYwMWJiOTMxMGQyZGE2MjIwZSINCiAgICAgICAgICAgICBzYW1wbGVFbmQ9IjE2MzIwIiBsb2NhdGlvbj0i
+        a2l0Oi8vQ2xlYW4lMjA4MDgvU2FtcGxlcy9TbmFyZS53YXYiDQogICAgICAgICAgICAgd2FzVHJpZ2dlcmVkPSIxIj4NCiAgICAgICAgPGNob2tlR3JvdXA+DQogICAg
+        ICAgICAgPGl0ZW0gaW5kZXg9IjEiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAgICAgICAgICA8dm9sdW1lIGRiPSIwLjAi
+        Lz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxob2xkIG1zPSIzNzAuMDY4
+        MDEzNjY4MDYwMyIvPg0KICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxtYWtldXAgZGI9IjAuMCIvPg0KICAgICAgICAgIDwvc2hhcGU+
+        DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAgICAgICAgICAgPGJ5cGFzc2VkLz4NCiAgICAgICAgICA8L2NvbXByZXNzaW9uPg0KICAgICAg
+        ICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9zaXRpb249IkMiLz4NCiAgICAgICAgICA8dG9uZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAg
+        IDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgICAgPG5vdGNoIGh6PSI0MDAuMCIgZ2FpbkRiPSIwLjAiIHE9IjMu
+        NSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFt
+        ZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjIiIG5hbWU9IkNsb3NlZCBIaS1IYXQiIG1kNT0iZmZlNjQ4OWYxNzliNzI0ZGQ0NmMyN2Mz
+        MTc3NGMyZTYiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSI1NTY4IiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4lMjA4MDgvU2FtcGxlcy9DbG9zZWQgSGF0LndhdiINCiAg
+        ICAgICAgICAgICB3YXNUcmlnZ2VyZWQ9IjEiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMiIvPg0KICAgICAgICAgIDxpdGVt
+        IGluZGV4PSIzIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAg
+        ICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iMTI2LjI1ODUwNzM3MDk0ODgi
+        Lz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAg
+        IDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5n
+        IGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBo
+        ej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDc5MS4xMzc2OTUzMTI1IiBnYWluRGI9IjAuMCIgcT0iMy41
+        Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQogICAgICAgIDwvcGFyYW1l
+        dGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgICA8c291bmQgc2xvdD0iMyIgbmFtZT0iT3BlbiBIaS1IYXQiIG1kNT0iMjkzZGFiOTg4NjFkMDhhOWU4MDE4MTYxMWYz
+        NGVjYWUiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSI5OTA0IiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4lMjA4MDgvU2FtcGxlcy9PcGVuIEhhdCBEZWNheS53YXYiPg0K
+        ICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMyIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0K
+        ICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAg
+        ICAgICAgICAgPGhvbGQgbXM9IjIyNC41ODA0OTY1NDk2MDYzIi8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBkYj0i
+        MC4wIi8+DQogICAgICAgICAgPC9zaGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAgICAg
+        ICAgIDwvY29tcHJlc3Npb24+DQogICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0b25l
+        IG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2ggaHo9
+        IjQ3OTEuMTM3Njk1MzEyNSIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+
+        DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjQiIG5hbWU9IkN5bWJhbCIg
+        bWQ1PSI2NTg5NDUwOWVkNWUyNWNlZTZhN2U0Y2Y2ZGYwMGE3YSINCiAgICAgICAgICAgICBzYW1wbGVFbmQ9IjQ5NDI0IiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4lMjA4
+        MDgvU2FtcGxlcy9DeW1iYWwgMDEud2F2Ig0KICAgICAgICAgICAgIHdhc1RyaWdnZXJlZD0iMSI+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1
+        bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQg
+        bXM9IjExMjAuNzI1NjMxNzEzODY3Ii8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBkYj0iMC4wIi8+DQogICAgICAg
+        ICAgPC9zaGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAgICAgICAgIDwvY29tcHJlc3Np
+        b24+DQogICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0b25lIG1hY3JvPSIwLjUiPg0K
+        ICAgICAgICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2ggaHo9IjM0MjMuNzc5Mjk2ODc1
+        IiBnYWluRGI9IjAuMCIgcT0iMy41Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3Rv
+        bmU+DQogICAgICAgIDwvcGFyYW1ldGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgICA8c291bmQgc2xvdD0iNSIgbmFtZT0iTG93IFRvbSIgbWQ1PSJkNTg1NzQzMGFj
+        MjViOWM1ZGVmNDYyMTZkNjE5ZWFlYyINCiAgICAgICAgICAgICBzYW1wbGVFbmQ9IjI3MzEyIiBsb2NhdGlvbj0ia2l0Oi8vQ2xlYW4lMjA4MDgvU2FtcGxlcy9Mb3cg
+        VG9tLndhdiINCiAgICAgICAgICAgICB3YXNUcmlnZ2VyZWQ9IjEiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iNSIvPg0KICAg
+        ICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0i
+        MC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQgbXM9IjYxOS4zMTk3MzY5NTc1NSIvPg0KICAgICAgICAgICAgPGRl
+        Y2F5IG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxtYWtldXAgZGI9IjAuMCIvPg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3Jv
+        PSIwLjAiPg0KICAgICAgICAgICAgPGJ5cGFzc2VkLz4NCiAgICAgICAgICA8L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAg
+        ICAgIDxwYW4gcG9zaXRpb249IkMiLz4NCiAgICAgICAgICA8dG9uZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5
+        OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgICAgPG5vdGNoIGh6PSI0MDAuMCIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6
+        PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAg
+        PHNvdW5kIHNsb3Q9IjYiIG5hbWU9Ik1pZCBUb20iIG1kNT0iOTE1NTY1NjIwNTBkNzUzZWM1NDJmNDc4OTdmYjY4YmIiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSIx
+        ODg4MCIgbG9jYXRpb249ImtpdDovL0NsZWFuJTIwODA4L1NhbXBsZXMvTWlkIFRvbS53YXYiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBp
+        bmRleD0iNiIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAgICAgICAg
+        IDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQgbXM9IjQyOC4xMTc5MDEwODY4MDczIi8+
+        DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBkYj0iMC4wIi8+DQogICAgICAgICAgPC9zaGFwZT4NCiAgICAgICAgICA8
+        Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAgICAgICAgIDwvY29tcHJlc3Npb24+DQogICAgICAgICAgPHR1bmluZyBj
+        dD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0b25lIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGxvd1Bhc3MgaHo9
+        IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2ggaHo9IjQwMC4wIiBnYWluRGI9IjAuMCIgcT0iMy41Ii8+DQogICAgICAg
+        ICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQogICAgICAgIDwvcGFyYW1ldGVycz4NCiAgICAg
+        IDwvc291bmQ+DQogICAgICA8c291bmQgc2xvdD0iNyIgbmFtZT0iSGlnaCBUb20iIG1kNT0iMmM1NDU5ZDU3ZWU3ZDhhMWI3MzFmZjM2YjA3NTBlYjciDQogICAgICAg
+        ICAgICAgc2FtcGxlRW5kPSIyMTQ3MiIgbG9jYXRpb249ImtpdDovL0NsZWFuJTIwODA4L1NhbXBsZXMvSGlnaCBUb20ud2F2Ig0KICAgICAgICAgICAgIHdhc1RyaWdn
+        ZXJlZD0iMSI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0KICAgICAgICAgIDxpdGVtIGluZGV4PSI3Ii8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBh
+        cmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0i
+        MC4wIi8+DQogICAgICAgICAgICA8aG9sZCBtcz0iNDg2Ljg5MzQxNTQ1MTA0OTgiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8
+        bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3Nl
+        ZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAg
+        ICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAg
+        IDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0iMC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIv
+        Pg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAgICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICAgIDxzb3VuZCBzbG90PSI4IiBuYW1lPSJMb3cgQ29u
+        Z2EiIG1kNT0iNDc5NzQzZGNjMDM5MGU5NTM4MzAzODE5YmVhNmQxMmUiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSIyMjc4NCIgbG9jYXRpb249ImtpdDovL0NsZWFu
+        JTIwODA4L1NhbXBsZXMvTG93IENvbmdhLndhdiINCiAgICAgICAgICAgICB3YXNUcmlnZ2VyZWQ9IjEiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8
+        aXRlbSBpbmRleD0iOCIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1bWUgZGI9IjAuMCIvPg0KICAg
+        ICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQgbXM9IjUxNi42NDQwMDEwMDcw
+        ODAxIi8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBkYj0iMC4wIi8+DQogICAgICAgICAgPC9zaGFwZT4NCiAgICAg
+        ICAgICA8Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAgICAgICAgIDwvY29tcHJlc3Npb24+DQogICAgICAgICAgPHR1
+        bmluZyBjdD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0b25lIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGxvd1Bh
+        c3MgaHo9IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2ggaHo9IjQwMC4wIiBnYWluRGI9IjAuMCIgcT0iMy41Ii8+DQog
+        ICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQogICAgICAgIDwvcGFyYW1ldGVycz4N
+        CiAgICAgIDwvc291bmQ+DQogICAgICA8c291bmQgc2xvdD0iOSIgbmFtZT0iTWlkIENvbmdhIiBtZDU9IjRkMjBhMWYyZWZiMGYwNzBiOTUwOGYzZmI4NjkzNjIxIg0K
+        ICAgICAgICAgICAgIHNhbXBsZUVuZD0iMTE3NjAiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUyMDgwOC9TYW1wbGVzL01pZCBDb25nYS53YXYiDQogICAgICAgICAgICAg
+        d2FzVHJpZ2dlcmVkPSIxIj4NCiAgICAgICAgPGNob2tlR3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjkiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAg
+        ICAgICA8cGFyYW1ldGVycz4NCiAgICAgICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0
+        YWNrIG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxob2xkIG1zPSIyNjYuNjY2NjgwNTc0NDE3MSIvPg0KICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAiLz4NCiAgICAg
+        ICAgICAgIDxtYWtldXAgZGI9IjAuMCIvPg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAgICAgICAgICAg
+        PGJ5cGFzc2VkLz4NCiAgICAgICAgICA8L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9zaXRpb249IkMi
+        Lz4NCiAgICAgICAgICA8dG9uZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAg
+        ICAgICAgICAgPG5vdGNoIGh6PSI0MDAuMCIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4
+        MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjEwIiBuYW1l
+        PSJIaWdoIENvbmdhIiBtZDU9Ijg2ZGZiZWZkMWNjZDA5MjI1ZDQ4NjU2ZTFhMTUzYzg0Ig0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iOTg4OCIgbG9jYXRpb249Imtp
+        dDovL0NsZWFuJTIwODA4L1NhbXBsZXMvSGlnaCBDb25nYS53YXYiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMTAiLz4NCiAg
+        ICAgICAgPC9jaG9rZUdyb3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAgICAgICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89
+        IjAuNSI+DQogICAgICAgICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxob2xkIG1zPSIyMjQuMjE3NjgzMDc2ODU4NSIvPg0KICAgICAgICAgICAg
+        PGRlY2F5IG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxtYWtldXAgZGI9IjAuMCIvPg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1h
+        Y3JvPSIwLjAiPg0KICAgICAgICAgICAgPGJ5cGFzc2VkLz4NCiAgICAgICAgICA8L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAg
+        ICAgICAgIDxwYW4gcG9zaXRpb249IkMiLz4NCiAgICAgICAgICA8dG9uZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIw
+        LjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgICAgPG5vdGNoIGh6PSI0MDAuMCIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAgICAgICAgICAgPGhpZ2hQYXNz
+        IGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQogICAgICA8L3NvdW5kPg0KICAg
+        ICAgPHNvdW5kIHNsb3Q9IjExIiBuYW1lPSJIYW5kIENsYXAiIG1kNT0iOWZjZjE1NmVhNmU2ZTdmMGM5ODk4MjEwOGJkMTllNTIiDQogICAgICAgICAgICAgc2FtcGxl
+        RW5kPSI0NDM1MSIgbG9jYXRpb249ImtpdDovL0NsZWFuJTIwODA4L1NhbXBsZXMvSGFuZCBDbGFwIFNlbWktRHJ5LndhdiI+DQogICAgICAgIDxjaG9rZUdyb3VwPg0K
+        ICAgICAgICAgIDxpdGVtIGluZGV4PSIxMSIvPg0KICAgICAgICA8L2Nob2tlR3JvdXA+DQogICAgICAgIDxwYXJhbWV0ZXJzPg0KICAgICAgICAgIDx2b2x1bWUgZGI9
+        IjAuMCIvPg0KICAgICAgICAgIDxzaGFwZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxhdHRhY2sgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPGhvbGQgbXM9IjEw
+        MDUuNjkxNjQ3NTI5NjAyIi8+DQogICAgICAgICAgICA8ZGVjYXkgbXM9IjAuMCIvPg0KICAgICAgICAgICAgPG1ha2V1cCBkYj0iMC4wIi8+DQogICAgICAgICAgPC9z
+        aGFwZT4NCiAgICAgICAgICA8Y29tcHJlc3Npb24gbWFjcm89IjAuMCI+DQogICAgICAgICAgICA8YnlwYXNzZWQvPg0KICAgICAgICAgIDwvY29tcHJlc3Npb24+DQog
+        ICAgICAgICAgPHR1bmluZyBjdD0iMC4wIi8+DQogICAgICAgICAgPHBhbiBwb3NpdGlvbj0iQyIvPg0KICAgICAgICAgIDx0b25lIG1hY3JvPSIwLjUiPg0KICAgICAg
+        ICAgICAgPGxvd1Bhc3MgaHo9IjIyMDAwLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgICA8bm90Y2ggaHo9IjU3MC42Mjk4ODI4MTI1IiBnYWlu
+        RGI9IjAuMCIgcT0iMy41Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQog
+        ICAgICAgIDwvcGFyYW1ldGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgICA8c291bmQgc2xvdD0iMTIiIG5hbWU9IkNsYXZlIiBtZDU9IjQyYjJkOWQ0ZjBlZDgzZTIy
+        ZGExNzdmNWJkY2RmZjViIg0KICAgICAgICAgICAgIHNhbXBsZUVuZD0iMTYwMCIgbG9jYXRpb249ImtpdDovL0NsZWFuJTIwODA4L1NhbXBsZXMvQ2xhdmUud2F2Ij4N
+        CiAgICAgICAgPGNob2tlR3JvdXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjEyIi8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+
+        DQogICAgICAgICAgPHZvbHVtZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQog
+        ICAgICAgICAgICA8aG9sZCBtcz0iMzYuMjgxMTc5NjM2NzE2ODQiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRi
+        PSIwLjAiLz4NCiAgICAgICAgICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAg
+        ICAgICAgPC9jb21wcmVzc2lvbj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRv
+        bmUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBo
+        ej0iMjQyMi40ODUzNTE1NjI1IiBnYWluRGI9IjAuMCIgcT0iMy41Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEi
+        Lz4NCiAgICAgICAgICA8L3RvbmU+DQogICAgICAgIDwvcGFyYW1ldGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgICA8c291bmQgc2xvdD0iMTMiIG5hbWU9Ik1hcmFj
+        YSIgbWQ1PSJjMjBjMzg5ZThiY2I3NTIxMWQ4ZTlmZmNiZWI3ZDQ4NCINCiAgICAgICAgICAgICBzYW1wbGVFbmQ9IjIyNDAiIGxvY2F0aW9uPSJraXQ6Ly9DbGVhbiUy
+        MDgwOC9TYW1wbGVzL01hcmFjYS53YXYiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRleD0iMTMiLz4NCiAgICAgICAgPC9jaG9rZUdy
+        b3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAgICAgICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAg
+        ICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxob2xkIG1zPSI1MC43OTM2NTE0OTE0MDM1OCIvPg0KICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAi
+        Lz4NCiAgICAgICAgICAgIDxtYWtldXAgZGI9IjAuMCIvPg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNvbXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAg
+        ICAgICAgICAgPGJ5cGFzc2VkLz4NCiAgICAgICAgICA8L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9z
+        aXRpb249IkMiLz4NCiAgICAgICAgICA8dG9uZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIyMjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3
+        MSIvPg0KICAgICAgICAgICAgPG5vdGNoIGh6PSI0Njk0LjIzODI4MTI1IiBnYWluRGI9IjAuMCIgcT0iMy41Ii8+DQogICAgICAgICAgICA8aGlnaFBhc3MgaHo9IjEu
+        MCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICA8L3RvbmU+DQogICAgICAgIDwvcGFyYW1ldGVycz4NCiAgICAgIDwvc291bmQ+DQogICAgICA8c291
+        bmQgc2xvdD0iMTQiIG5hbWU9IkNvd2JlbGwiIG1kNT0iYTc1MjNkZjMyOTgxOTBhMTY0ZmNjZjQ1M2U1NDI5MDkiDQogICAgICAgICAgICAgc2FtcGxlRW5kPSIxODQz
+        MiIgbG9jYXRpb249ImtpdDovL0NsZWFuJTIwODA4L1NhbXBsZXMvQ293YmVsbC53YXYiPg0KICAgICAgICA8Y2hva2VHcm91cD4NCiAgICAgICAgICA8aXRlbSBpbmRl
+        eD0iMTQiLz4NCiAgICAgICAgPC9jaG9rZUdyb3VwPg0KICAgICAgICA8cGFyYW1ldGVycz4NCiAgICAgICAgICA8dm9sdW1lIGRiPSIwLjAiLz4NCiAgICAgICAgICA8
+        c2hhcGUgbWFjcm89IjAuNSI+DQogICAgICAgICAgICA8YXR0YWNrIG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxob2xkIG1zPSI0MTcuOTU5MTgzNDU0NTEzNSIvPg0K
+        ICAgICAgICAgICAgPGRlY2F5IG1zPSIwLjAiLz4NCiAgICAgICAgICAgIDxtYWtldXAgZGI9IjAuMCIvPg0KICAgICAgICAgIDwvc2hhcGU+DQogICAgICAgICAgPGNv
+        bXByZXNzaW9uIG1hY3JvPSIwLjAiPg0KICAgICAgICAgICAgPGJ5cGFzc2VkLz4NCiAgICAgICAgICA8L2NvbXByZXNzaW9uPg0KICAgICAgICAgIDx0dW5pbmcgY3Q9
+        IjAuMCIvPg0KICAgICAgICAgIDxwYW4gcG9zaXRpb249IkMiLz4NCiAgICAgICAgICA8dG9uZSBtYWNybz0iMC41Ij4NCiAgICAgICAgICAgIDxsb3dQYXNzIGh6PSIy
+        MjAwMC4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgICAgPG5vdGNoIGh6PSI3NzUuMTk1MzEyNSIgZ2FpbkRiPSIwLjAiIHE9IjMuNSIvPg0KICAg
+        ICAgICAgICAgPGhpZ2hQYXNzIGh6PSIxLjAiIHE9IjAuNjk5OTk5OTg4MDc5MDcxIi8+DQogICAgICAgICAgPC90b25lPg0KICAgICAgICA8L3BhcmFtZXRlcnM+DQog
+        ICAgICA8L3NvdW5kPg0KICAgICAgPHNvdW5kIHNsb3Q9IjE1IiBuYW1lPSJSaW0gU2hvdCIgbWQ1PSJlNTQ0YzljNzk3NDg0NTU1NzZmZWFlZTkxMjE4ZGNkNSINCiAg
+        ICAgICAgICAgICBzYW1wbGVFbmQ9Ijk3NiIgbG9jYXRpb249ImtpdDovL0NsZWFuJTIwODA4L1NhbXBsZXMvUmltIFNob3Qud2F2Ij4NCiAgICAgICAgPGNob2tlR3Jv
+        dXA+DQogICAgICAgICAgPGl0ZW0gaW5kZXg9IjE1Ii8+DQogICAgICAgIDwvY2hva2VHcm91cD4NCiAgICAgICAgPHBhcmFtZXRlcnM+DQogICAgICAgICAgPHZvbHVt
+        ZSBkYj0iMC4wIi8+DQogICAgICAgICAgPHNoYXBlIG1hY3JvPSIwLjUiPg0KICAgICAgICAgICAgPGF0dGFjayBtcz0iMC4wIi8+DQogICAgICAgICAgICA8aG9sZCBt
+        cz0iMjIuMTMxNTE5MzkyMTMyNzYiLz4NCiAgICAgICAgICAgIDxkZWNheSBtcz0iMC4wIi8+DQogICAgICAgICAgICA8bWFrZXVwIGRiPSIwLjAiLz4NCiAgICAgICAg
+        ICA8L3NoYXBlPg0KICAgICAgICAgIDxjb21wcmVzc2lvbiBtYWNybz0iMC4wIj4NCiAgICAgICAgICAgIDxieXBhc3NlZC8+DQogICAgICAgICAgPC9jb21wcmVzc2lv
+        bj4NCiAgICAgICAgICA8dHVuaW5nIGN0PSIwLjAiLz4NCiAgICAgICAgICA8cGFuIHBvc2l0aW9uPSJDIi8+DQogICAgICAgICAgPHRvbmUgbWFjcm89IjAuNSI+DQog
+        ICAgICAgICAgICA8bG93UGFzcyBoej0iMjIwMDAuMCIgcT0iMC42OTk5OTk5ODgwNzkwNzEiLz4NCiAgICAgICAgICAgIDxub3RjaCBoej0iNDAwLjAiIGdhaW5EYj0i
+        MC4wIiBxPSIzLjUiLz4NCiAgICAgICAgICAgIDxoaWdoUGFzcyBoej0iMS4wIiBxPSIwLjY5OTk5OTk4ODA3OTA3MSIvPg0KICAgICAgICAgIDwvdG9uZT4NCiAgICAg
+        ICAgPC9wYXJhbWV0ZXJzPg0KICAgICAgPC9zb3VuZD4NCiAgICA8L3NvdW5kcz4NCiAgICA8bWFwcGluZyBwcmVzZXQ9ImNocm9tYXRpYyI+DQogICAgICA8dHJpZ2dl
+        ck1hcD4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjM2IiBzbG90PSIwIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSIzNyIgc2xvdD0iMSIvPg0KICAgICAgICA8
+        aXRlbSBtaWRpTm90ZT0iMzgiIHNsb3Q9IjIiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjM5IiBzbG90PSIzIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0
+        MCIgc2xvdD0iNCIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDEiIHNsb3Q9IjUiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQyIiBzbG90PSI2Ii8+DQog
+        ICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0MyIgc2xvdD0iNyIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDQiIHNsb3Q9IjgiLz4NCiAgICAgICAgPGl0ZW0gbWlk
+        aU5vdGU9IjQ1IiBzbG90PSI5Ii8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0NiIgc2xvdD0iMTAiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ3IiBzbG90
+        PSIxMSIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDgiIHNsb3Q9IjEyIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0OSIgc2xvdD0iMTMiLz4NCiAgICAg
+        ICAgPGl0ZW0gbWlkaU5vdGU9IjUwIiBzbG90PSIxNCIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNTEiIHNsb3Q9IjE1Ii8+DQogICAgICA8L3RyaWdnZXJNYXA+
+        DQogICAgICA8cGFyYW1ldGVyTWFwLz4NCiAgICAgIDxwYWRTZWxlY3RNYXAvPg0KICAgIDwvbWFwcGluZz4NCiAgICA8a2l0IGxhYmVsPSJDbGVhbiA4MDgiIG1vZGlm
+        aWVkPSIwIi8+DQogICAgPGdlbmVyYWxNaWRpTWFwcGluZz4NCiAgICAgIDx0cmlnZ2VyTWFwPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iMzYiIHNsb3Q9IjAiLz4N
+        CiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjM4IiBzbG90PSIxIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0MiIgc2xvdD0iMiIvPg0KICAgICAgICA8aXRlbSBt
+        aWRpTm90ZT0iNDYiIHNsb3Q9IjMiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjQ5IiBzbG90PSI0Ii8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI0NSIgc2xv
+        dD0iNSIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNDciIHNsb3Q9IjYiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjUwIiBzbG90PSI3Ii8+DQogICAgICAg
+        IDxpdGVtIG1pZGlOb3RlPSI2NCIgc2xvdD0iOCIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNjIiIHNsb3Q9IjkiLz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9
+        IjYzIiBzbG90PSIxMCIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iMzkiIHNsb3Q9IjExIi8+DQogICAgICAgIDxpdGVtIG1pZGlOb3RlPSI3NSIgc2xvdD0iMTIi
+        Lz4NCiAgICAgICAgPGl0ZW0gbWlkaU5vdGU9IjcwIiBzbG90PSIxMyIvPg0KICAgICAgICA8aXRlbSBtaWRpTm90ZT0iNTYiIHNsb3Q9IjE0Ii8+DQogICAgICAgIDxp
+        dGVtIG1pZGlOb3RlPSIzNyIgc2xvdD0iMTUiLz4NCiAgICAgIDwvdHJpZ2dlck1hcD4NCiAgICA8L2dlbmVyYWxNaWRpTWFwcGluZz4NCiAgICA8bWV0YSBjcmVhdG9y
+        PSJEZWNvbXBvc2VyIiBkZXNjcmlwdGlvbj0iQ2xlYW4gU2FtcGxlZCA4MDgiLz4NCiAgICA8dmlld1N0YXRlIHNlbGVjdGVkU2xvdD0iMCIvPg0KICAgIDxpbXBvcnRI
+        aXN0b3J5Lz4NCiAgPC9zdGF0ZT4NCjwvc2l0YWxhPg0K
+        AENsZWFuIDgwOAAQAAAA
       >
-    >
-    <ITEM
-      POSITION 41.78691071450434
-      SNAPOFFS 0
-      LENGTH 214.7991591609433
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {7ACCE553-1353-4542-8F2F-3B313A9FC786}
-      IID 184
-      NAME Kick.ogg
-      VOLPAN 1 0 1 -1
-      SOFFS 41.77168629940672
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {1F621954-7A22-46C4-BFE7-6D19879C8FA0}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 43.65956356342578
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {F9A8FF3F-21D8-41CD-A57A-43B6228FD93D}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.709402 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {1CFC0F8C-E1FB-4A3A-940A-17E4CB0AC832}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 48.07935818059128
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {FD4C9840-2155-4918-9FAF-FEDC1568DF17}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.619658 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E0CB5BAE-FBA7-41E3-B917-6B9408F09494}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 54.51601933901484
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {422E7D5D-0C94-40B7-ADA1-44C7C3920C18}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.592357 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {8F978E57-E4B9-4645-8B1B-16B7DCDAE84B}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 54.6809911375568
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {24482945-1C1E-48CC-A14F-B0A939BE7D1A}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.532909 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {9BC2A7FF-0298-4667-B85B-4AFAA7CE2610}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 56.69714383979532
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {C51BCC07-AE01-4604-89BC-1A65141014C3}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.602339 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {33883CAF-DF71-4F44-87A8-FA2F52041935}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 56.86211563845369
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {7B67632D-946D-4191-A329-B9A8FB4B6A36}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.555556 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {FD1ED95D-CA61-489C-A368-83F76F0C2D47}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 61.26538836548571
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {585BA5EA-A3F0-4A27-81E3-3986416DCC46}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.578947 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {4DB0C949-36FA-4C98-9B5E-1DE814F8867A}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 69.92315052364603
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {34F93392-DFAC-4625-9053-BBD0FB59D8CD}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.567251 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {80A5245B-F61A-4884-8744-29FD8F3A8FAE}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 70.08812232218798
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {734A4C34-8862-4017-8635-8AC176592B72}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.631579 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E88DCC21-CF7A-4C8D-B832-17A32D544FCF}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 74.49927341415857
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {8C914AC7-A801-43C6-BE08-D47D48CC4846}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.62249 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {7E8E19AD-ECFE-4F51-8E4B-199E332D02D0}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 81.1158325373525
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {2F7FCDB7-37D7-44B5-8D06-855B127B6AAE}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.614458 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {0BD1E02A-7DE7-4566-A804-510830990EE1}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 83.15406016590269
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {2E3BBD9C-5516-40EE-9368-CB98EE51C6E3}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.607759 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {66A9ECCC-46D3-4A94-8632-1E2ED1D9488B}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 83.31903196444465
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {FFCD3430-97A4-4296-B3D3-99E52C708699}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.568966 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {13C46F5A-B1E1-4DDF-B5AB-97D9F1699242}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 87.73257241734159
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {4380A837-0C36-462C-B799-ACC54DEF5997}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.525862 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {C309C4A0-42CB-4067-A380-C2C033D98E1D}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 94.14126412251019
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {34B25289-DC68-4D8C-B4FA-76C127213340}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.586207 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {4F3745FB-4D74-4B26-965E-F4F4F4955BD7}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 94.30623592116856
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {D8338CF8-7BE9-4561-91EB-CA06AD1BB027}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.538793 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {5B23F6A5-6C42-45FE-B42C-6494594F3C15}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 98.7341293511481
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {AF33589A-FC15-484B-93D4-C53D2AA95876}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.551724 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {269101C9-A56E-4974-A9E2-2325264A2E2F}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 129.5786771016376
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {A1D5A46D-1C42-495C-97F4-0519C5A80233}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.573276 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {448BAD5F-91AD-4322-B9FE-9ECD2A127699}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 133.98504106599324
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {624DACB5-B111-4AB0-ABDF-BD457B9888F1}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.521552 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {33A9A048-C4CD-4CF4-9832-CCD61FCCA509}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 142.79776899470451
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {5421FCA2-BAB4-4385-ADBA-79D73B030F17}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.599138 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {F67E8556-7F1F-40B1-94FD-000AB79093DF}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 151.42468338633131
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {6621B0D6-D3EC-44DC-ACE0-2B237164CB01}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.599138 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {1DCFFA7D-3B94-4409-A63F-C813D8AEA8FB}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 151.58965518498968
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {742C1876-522C-490F-B749-E50133F8BFF1}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.551724 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {7C52EF8F-6DF4-452D-82B3-BDEFFBB28B06}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 156.0201675093472
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {42E451D2-3B10-4CD6-8153-480F202BF990}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.646552 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {DB1028B2-52C2-4A04-B05C-37790B4D520E}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 162.60998307935657
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {11DB3B61-187B-496E-AE0D-0164B48C0181}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.599138 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {983DF842-D953-4A56-9538-C331DE781895}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 167.01177980241246
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {03C9AA28-06A2-461B-94F3-C4959B645C92}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.573276 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {1643C246-3E5B-410A-8D7B-9FD844F9F7F9}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 169.22922627192182
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {49793431-92FC-42C2-98BD-B6ADEF620B45}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.599138 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {2D39852B-4CA9-45FB-9EAC-C26A1A5C8594}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 171.40530247147765
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {7D83F9A5-E209-4A45-924F-38760BDFE797}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.693966 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3023FBD9-58F1-4E27-96D5-5A1ADBB92302}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 173.63102299497774
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {29DE2E3A-0FDB-463B-B926-A49D3D8E0DDE}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.560345 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3C5F49F1-572A-4EC0-9069-C3EF2AD98A21}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 182.43461644108953
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {077FC970-8178-4AF1-B680-9D96819F3537}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.594828 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {EADF82B9-5C9B-48E7-9FD6-D55692B19311}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 186.6714413656035
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {35D6D977-A8AC-491C-8E8B-23FBA80F9E08}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.586207 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {B169AD54-6F73-463D-BC13-D98E7D9C5286}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 186.83641316414545
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {3F574031-84BC-4EA1-8CEB-CEA0D10910FA}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.543103 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {31548A00-727C-4DB7-8E6A-3EEA4ED8DCE4}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 191.31267637317069
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {0A932FE1-36DB-4CA0-87CE-795245CE06E7}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.650862 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E81414AD-17F9-4FB4-B1F9-6E7989547799}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 195.71447309617361
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {FFE47D37-F0C1-44B3-A80E-5184D8FC3AD3}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.534483 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3030E65F-2722-489D-BAFF-7FA8A322601F}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 200.13629531697606
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {28FF8783-B14B-4A5C-AFEE-3606BF8530A0}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.672414 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3023B91A-FEDD-4517-BC52-6A6875BE0106}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 204.53082122757905
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {72E7439F-62AD-4953-8513-DCCFCA403B98}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.603448 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6A342CA0-19B6-4F40-B749-971CAAC9F196}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 213.18303138899378
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {CBBEDC42-DDC5-477F-B5DE-4DFD4F00336D}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.625 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {8A78E2D2-8323-4D1F-947B-CEDAB7289BBC}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 213.34800318753574
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {5DE0E131-DC6A-4D2D-8541-EBEF3F74217F}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.543103 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {25617BB2-E596-4B70-8190-AD6615BA9B66}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 222.16749857838244
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {26008C1D-4A3B-449C-8554-736F4716BA0D}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.737069 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {8FEA8389-E96A-4294-A4A5-85F9542A0CC2}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 226.56377896878132
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {1328DC77-A2ED-4095-8B85-54920C6B85CF}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.64794 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {292C8C12-AB46-4B41-9AC4-CA95019D13AE}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 230.96380568829582
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {FF722512-17DD-4A70-A958-39B0B3D381BA}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.602996 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {55250F1C-9A33-4FF2-B806-498C9CA8B9F3}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
-    >
-    <ITEM
-      POSITION 235.36827547861145
-      SNAPOFFS 0
-      LENGTH 0.16497179859546
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {4E483032-31AF-47A1-9EF1-A42CA35FF4A9}
-      IID 183
-      NAME Kick.ogg
-      VOLPAN 0.483709 0 1 -1
-      SOFFS 41.60671450081126
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {394E12FB-19C6-4DDE-850F-AF738CD422F4}
-      <SOURCE VORBIS
-        FILE "Kick.ogg"
-      >
+      PRESETNAME "Clean 808"
+      FLOATPOS 0 0 0 0
+      FXID {A6C3063E-4288-4F22-8D69-6B31BCB7D687}
+      WAK 0 0
     >
   >
   <TRACK {1F81350C-976C-4971-9C43-DD34D7240E58}
@@ -2479,7 +2332,7 @@
     PEAKCOL 23325903
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 1 -1 -1 1
+    VOLPAN 0.93184106662624 1 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -2592,7 +2445,7 @@
     PEAKCOL 23325903
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 -1 -1 -1 1
+    VOLPAN 0.93184106662624 -1 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -2706,12 +2559,12 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
     REC 0 0 1 0 0 0 0
@@ -2757,7 +2610,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 2 0 0 0 0
+    BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
     SEL 0
@@ -3034,17 +2887,17 @@
       VOLTYPE 1
       PT 0 0 0
       PT 40.23578166 0.00000018 0
-      PT 40.45171299 1 0
-      PT 41.71457138 1 0
+      PT 40.45171299 0.36307805 0
+      PT 41.71457138 0.36307805 0
       PT 41.89955069 0 0
       PT 124.42333908 0.00000018 0
       PT 124.44896024 0.00000018 0
-      PT 124.66489157 1 0
-      PT 125.86553707 1 0
+      PT 124.66489157 0.26915348 0
+      PT 125.86553707 0.26915348 0
       PT 126.11272926 0 0
       PT 146.02836354 0.00000018 0
-      PT 146.24429486 1 0
-      PT 147.44494037 1 0
+      PT 146.24429486 0.50118723 0 0 1
+      PT 147.44494037 0.50118723 0 0 1
       PT 147.69213256 0 0
       PT 186.26617205 0.00000018 0
       PT 186.48210338 1 0
@@ -3056,7 +2909,7 @@
       PT 211.66365358 0 0
       PT 221.67525812 0.00000018 0
       PT 221.89118945 1 0
-      PT 222.89750069 0.97723722 0 0 1
+      PT 222.89750069 0.97723722 0
       PT 223.05926808 0 0
     >
     <FXCHAIN
@@ -3068,9 +2921,8 @@
       <VST "VST: ReaDelay (Cockos)" readelay.dll 0 "" 1919247468<5653547265646C72656164656C617900> ""
         bGRlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAA
         AAAAAAAAAAABAAAALAAAAAIAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAHMX88AACAPwAAgD8AAAAAAACAPwAAgD8AAIA/AAAAPw==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
-      PRESETNAME "Program 1"
       FLOATPOS 0 0 0 0
       FXID {F1BCDB47-6F16-4264-8AB7-7F9FE708BC7A}
       WAK 0 0
@@ -3082,14 +2934,14 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 1 0 0 0 0
@@ -3100,6 +2952,8 @@
     PERF 0
     AUXRECV 1 0 0.04816847551365 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 4 0 0.22495074449391 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 14 0 0.02387215858466 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 15 0 0.05691335171671 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 16 0 0.31622776601684 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 17 0 0.31622776601684 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 18 0 0.06309573444802 0 0 0 0 0 0 -1:U 0 -1 ''
