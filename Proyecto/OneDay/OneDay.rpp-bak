@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.53/win64" 1649730187
+<REAPER_PROJECT 0.1 "6.53/win64" 1649730850
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,9 +16,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 19.28571428571428
-  ZOOM 18.09988511457988 0 0
-  VZOOMEX 6 215
+  CURSOR 2.14285714285714
+  ZOOM 19.70564340271956 0 0
+  VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -236,14 +236,14 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 1 5056 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -285,7 +285,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 0
+      POSITION 2.14285714285714
       SNAPOFFS 0
       LENGTH 11.42857142857143
       LOOP 0
@@ -369,7 +369,7 @@
       >
     >
     <ITEM
-      POSITION 11.42857142857143
+      POSITION 13.57142857142857
       SNAPOFFS 0
       LENGTH 10
       LOOP 0
@@ -377,7 +377,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {3656C3C9-B2E8-4817-BE89-81E041E653B4}
       IID 6
       NAME "ReaSynth untitled MIDI item"
@@ -452,6 +452,90 @@
         CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.5 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
       >
     >
+    <ITEM
+      POSITION 231.07142857147846
+      SNAPOFFS 0
+      LENGTH 11.42857142857142
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C67E607B-0D24-48A8-8E48-50A2192710A0}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3DA9FDA5-D0E3-422E-95A4-51A69894BB98}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {C71352F7-1F96-43A3-A07C-5687B5BA0A0A}
+        E 0 90 58 3c
+        E 0 90 53 3c
+        E 0 90 50 3c
+        E 0 90 4c 3c
+        E 0 90 40 3c
+        E 0 90 47 3c
+        E 6720 90 49 3c
+        E 960 80 58 00
+        E 0 80 53 00
+        E 0 80 50 00
+        E 0 80 4c 00
+        E 0 80 40 00
+        E 0 80 49 00
+        E 0 90 42 3c
+        E 0 90 3b 3c
+        E 0 90 4a 3c
+        E 6720 80 47 00
+        E 0 80 42 00
+        E 0 80 3b 00
+        E 0 80 4a 00
+        E 0 90 50 3c
+        E 0 90 49 3c
+        E 0 90 44 3c
+        E 0 90 3d 3c
+        e 0 90 38 3c
+        E 960 80 50 00
+        E 0 80 49 00
+        E 0 80 44 00
+        E 0 80 3d 00
+        e 0 80 38 00
+        E 0 90 4a 3d
+        E 0 90 45 3c
+        E 0 90 42 3c
+        E 0 90 3e 3c
+        E 0 90 39 3c
+        E 7680 80 4a 00
+        E 0 80 3e 00
+        E 0 80 39 00
+        E 0 90 49 3c
+        E 0 90 51 3c
+        E 0 90 4c 3c
+        E 2400 80 49 00
+        E 1440 90 49 3c
+        E 3840 80 45 00
+        E 0 80 42 00
+        E 0 80 51 00
+        E 0 80 4c 00
+        E 0 80 49 00
+        E 0 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW 7237.392044 0.042616 33 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.5 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
   >
   <TRACK {880B8083-9FFC-45C1-B634-C357141861B7}
     NAME Saxophone
@@ -459,14 +543,14 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 1 5056 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -512,15 +596,15 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 25
+      POSITION 59.64285714285715
       SNAPOFFS 0
-      LENGTH 11.42857142857144
+      LENGTH 11.42857142857145
       LOOP 0
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {C3B5C75E-65FE-4117-84B2-A8909AB83E6E}
       IID 6
       NAME "ReaSynth untitled MIDI item"
@@ -533,6 +617,766 @@
         HASDATA 1 960 QN
         CCINTERP 32
         POOLEDEVTS {98BFDF4D-1E8E-4C8A-B07E-7A5A3500613B}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 71.07142857142857
+      SNAPOFFS 0
+      LENGTH 11.42857142857144
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6984C6F0-F654-4166-8C57-B180A8FB7745}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B3E1CD0D-0C78-4BF5-8CE7-7A58C42B4147}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {643AB308-FF08-494A-8D19-78D213332DD2}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 93.92857142857143
+      SNAPOFFS 0
+      LENGTH 11.42857142857139
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D7FEDB67-6315-4824-A58A-8482128AF4F8}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {822110E9-82C2-4645-B95B-CC4340FA8E1A}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {118B8B6B-7451-400A-9339-8B7823EDE20E}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 116.78571428571429
+      SNAPOFFS 0
+      LENGTH 11.42857142857143
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C59CD8C9-D89E-48F1-81A9-2D1D802EE077}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {69367317-8EB6-46D6-A055-6FD163D260BF}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {2075686E-225C-4438-98D5-D6554B1F158C}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 128.21428571428572
+      SNAPOFFS 0
+      LENGTH 11.42857142857147
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B019840A-A164-4011-8CDC-29B43012124E}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {44C7FFD4-0509-46FE-8699-B9B75AAC5631}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {0C074841-C502-42D7-89EE-93C6D8E66F41}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 139.6428571428572
+      SNAPOFFS 0
+      LENGTH 11.42857142857147
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A03D9063-76C5-46AE-A996-E0D6887E2CE7}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BAA96EC3-077D-4B94-A05F-D057F7D97E07}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {52517617-7E2B-475F-B8C8-9E1411FD0C6F}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 162.5
+      SNAPOFFS 0
+      LENGTH 11.4285714285715
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3A51D4E4-B98E-47A4-B721-955686590695}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5BE517FB-006D-4BB3-8B36-0CC8DB7B1E9D}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {F8EDD7E0-BD92-498C-95C4-E116EBEDFD2A}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 185.35714285714286
+      SNAPOFFS 0
+      LENGTH 11.42857142857147
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3A7A6D9B-E015-4768-801F-EE6F9B5C13FF}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3FADE233-A542-4D8E-B8C1-A4FAA8A536F6}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {68876C7B-A394-4C55-87A4-142508A07E2F}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 196.78571428571433
+      SNAPOFFS 0
+      LENGTH 11.42857142857147
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FC6FEB56-E09A-4916-8EE0-E0409BFB308F}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {466CFA44-9883-4974-A1B8-E44302733909}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {9315A767-018A-4429-AB80-6D2BF9961ADB}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 208.21428571428581
+      SNAPOFFS 0
+      LENGTH 11.42857142857147
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A7060224-1948-44DA-A168-22DBC67B5B6D}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0BDDEC50-B448-46EC-B7B4-A7FB5AF3E64E}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {F419D532-093F-424E-8635-513664BC5675}
+        E 960 90 44 60
+        E 960 80 44 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 960 80 45 00
+        E 1920 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 4a 60
+        E 480 80 4a 00
+        E 480 90 49 60
+        E 480 80 49 00
+        E 0 90 47 60
+        E 960 80 47 00
+        E 480 90 42 60
+        E 960 80 42 00
+        E 960 90 45 60
+        E 1920 80 45 00
+        E 960 90 45 60
+        E 480 80 45 00
+        E 480 90 45 60
+        E 960 90 44 60
+        E 480 80 44 00
+        E 480 80 45 00
+        e 0 90 42 60
+        e 480 80 42 00
+        E 480 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {250D2B22-509E-49D8-A821-C1E2CF911256}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        VELLANE -1 100 0
+        CFGEDITVIEW -1623.107438 0.024028 34 17 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 0 0 0 0 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 219.64285714285728
+      SNAPOFFS 0
+      LENGTH 11.42857142857147
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F1FFDB90-87D7-47D4-A08D-D34CB3F38D68}
+      IID 6
+      NAME "ReaSynth untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {102FFEDE-9CF6-4332-AB87-4ABFED0691DA}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {7A297348-039B-482F-9600-2F7506F0FF7F}
         E 960 90 44 60
         E 960 80 44 00
         E 1920 90 4a 60
