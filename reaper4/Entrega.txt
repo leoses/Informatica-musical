@@ -1,0 +1,5 @@
+La progresión de acordes que realiza Miki en el video es la siguiente (En La Dórico):
+	i, III, iv, VI
+
+La progresión de acordes que realizamos nosotros en nuestro proyecto es la siguiente (en La Menor):
+	i,VI,III,VII
