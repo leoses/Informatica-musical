@@ -1,5 +1,13 @@
+Esta práctica ha sido realizada por Anass Carreau Allagui y Leire Osés Sánchez.
+Hemos conseguido realizar todos los apartados mencionados en el enunciado de la práctica.
+
 La progresión de acordes que realiza Miki en el video es la siguiente (En La Dórico):
 	i, III, iv, VI
 
 La progresión de acordes que realizamos nosotros en nuestro proyecto es la siguiente (en La Menor):
 	i,VI,III,VII
+
+Notas que componen el acorde i: La, Do Mi
+Notas que componen el acorde VI: Fa, La, Do
+Notas que componen el acorde III: Do, Mi, Sol
+Notas que componen el acorde VII: Sol, Si, Do
